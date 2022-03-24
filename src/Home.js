@@ -56,6 +56,26 @@ const Styles = styled.div`
 
  }
 
+ 
+ .contactHeader {
+     font-family: Open Sans, sans-serif;
+     font-weight: bold;
+     font-size: 2.1rem;
+     color: white;
+ }
+
+ .contactLine {
+     height: 2px;
+     background-color: white;
+     border-radius: 10px;
+ }
+
+ .contactText {
+     font-family: Open Sans, sans-serif;
+     font-size: 1.1rem;
+     color: white;
+ }
+
     `;
 
 
