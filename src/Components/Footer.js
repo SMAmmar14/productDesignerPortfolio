@@ -121,9 +121,7 @@
             <li className = "mb-1">
                 <NavLink to = "/About">About</NavLink>
             </li>
-            <li className = "mb-4">
-                <NavLink to = "/Contact">Contact</NavLink>
-            </li>
+         
         </ul>
         </div>
 

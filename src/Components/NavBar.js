@@ -95,9 +95,7 @@ export const NavigationBar = () => (
            <Nav.Link className="hvr-underline-from-left mr-4">About</Nav.Link>
           </LinkContainer>
 
-          <LinkContainer to = "/Contact"> 
-           <Nav.Link className="hvr-underline-from-left mr-4">Contact</Nav.Link>
-          </LinkContainer>
+      
         </Nav>
       </Navbar.Collapse>
       </Container>
