@@ -48,6 +48,14 @@ const Styles = styled.div`
         line-height: 1.2em;
     }
 
+    
+ .contactJumbotron {
+    margin-top: 100px;
+    background-color: #9665FF;
+    margin-bottom: 0px;
+
+ }
+
     `;
 
 
