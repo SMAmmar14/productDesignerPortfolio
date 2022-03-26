@@ -14,7 +14,7 @@ import FPPLogo from '../src/Components/Assets/Img/FPPLogo.svg';
 import rsa from '../src/Components/Assets/Img/RSA.jpg';
 import Journeys from '../src/Components/Assets/Img/Journeys.jpg';
 import LMD from '../src/Components/Assets/Img/LMD.jpg';
-import LMDLogo from '../src/Components/Assets/Img/LMDLogo.svg';
+import LMDLogo from '../src/Components/Assets/Img/assemblyf.jpg';
 import FPPBuilder from  '../src/Components/Assets/Img/FPPBuilder.jpg';
 import {NewsletterFooter} from './Components/NewsletterFooter';
 import './App.css';
@@ -99,7 +99,7 @@ export const Home = () => (
   <BigCard 
     imgProjectLogo={LMDLogo}
     imgCardLarge={LMD}
-    cardTitleName = {"Creating a profitable delivery network in megacities"}
+    cardTitleName = {"Quicker a AssemblyF Capstone Project"}
     cardBodyText = {"Last Mile Delivery is a new urban multi modal delivery network. In this project we scale a delivery network 10X, reduce congestion by 166%, increase deliveries per hour by 160%. All during a pandemic. "}
     cardLink = {"/LMD"}
    />

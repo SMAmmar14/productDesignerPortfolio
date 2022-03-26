@@ -383,7 +383,7 @@ export const LMD = () => (
 <Container>
        <Row>
        <div className="col-xl-12">
-         <h1 className="tagHeader">Lastmile Delivery</h1>
+         <h1 className="tagHeader">Quicker: AssemblyF Capstone Project</h1>
         </div>
        <div className="col-xl-12">
        <Button href = "#impact" className = "tagStyling shadow-none" variant="outline-dark">Impact</Button>
@@ -402,10 +402,10 @@ export const LMD = () => (
           <div className="col-md-5 col-xl-5 mb-5">
             <h3 className="headerCopy">Project Overview</h3>
             <h5 className="mt-4 subHeaderCopy">Problem</h5>
-            <p className="bodyCopy mb-4">Porters delivering parcels around the city, need a way to understand what deliveries and collections they need to complete on the move so that they can complete their job.
+            <p className="bodyCopy mb-4">More than 50% of the population in Pakistan does not use smartphones. The lower SEC class needs a way to connect with digital ecosystem without using smartphones.
             </p> 
             <h5 className="subHeaderCopy"> Solution</h5>
-            <p className="bodyCopy mb-4">The goal of the project was to design a mobile delivery app for porters and van drivers. The app allows them to see their deliveries, pickups and transfers for the day.
+            <p className="bodyCopy mb-4">The goal of the project was to design a KaiOS mobile feature phone application that allows the lower SEC class to order goods online without using smartphones.
             </p>
             <h5 className="subHeaderListCopy">Impact</h5>
             <ul className ="subHeaderListBodyCopy">
@@ -431,21 +431,21 @@ export const LMD = () => (
                <h3 className="myRoleHeaderCopy">My Role</h3>
                <div className="myRoleBodyCopy">
                <p>
-               Since 2019 I've been <b>leading</b> a team of product designers responsible for designing, realising the vision and scaling for the Last Mile Delivery project.
+               It was a capstone project given to me by the AssemblyF team.
                </p>
-               <p> Our team works with partners and stakeholders across the globe and of every discipline.</p>
-               <p>I was responsible for designing the app and optimising it throughout the pilot</p>
+               <p>I was responsible for designing the app, realising the vision and validating the feasibility of the concept.</p>
                </div>
               </div>
               <div className="offset-md-2 col-md-5">
                <h3 className="myRoleHeaderCopy">What I Did</h3>
                <ul className="whatIDidCopy">
                  <li>Lead the product vision and strategy </li>
-                 <li>Lead the visual design for the entire iOS app. </li>
-                 <li>Design System Manager</li>
+                 <li>Lead the visual design for the entire KaiOS app. </li>
+                 <li>Designed UI kit</li>
                  <li>Lead the user research and strategy</li>
-                 <li>Executive presentations to CEO</li>
-                 <li>Establishing and documenting patterns and best practices</li>
+                  <li>Conducted usability testing session to check the feasibility of idea.</li>
+                 <li>Final Presentation to a panel of Judges</li>
+                
                  
                </ul> 
               </div>
@@ -456,7 +456,7 @@ export const LMD = () => (
 <Container>
 <a id = "background">
   <Row>
-  <div className="col-xl-6">
+  <div className="col-xl-12">
     <h1 className ="projectBackgroundHeader">Last Mile Delivery Background</h1>
     <h5 className="mt-4 projectBackgroundSubHeader">Congestion In Cities Is Getting Worse</h5>
     <p className="projectBackgroundBody">Congestion in mega cities is getting worse every year. This results in an increase in journey times and worsening air polloution in the city.
@@ -467,11 +467,7 @@ export const LMD = () => (
     </p>
   </div>
 
-  <div className="col-xl-6 mb-5">
-  <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KYWirKybviA" allowfullscreen></iframe>
-  </div>
-  </div>
+
   </Row>
   
   <Row>
