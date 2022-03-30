@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import DeedsAtHome from '../src/Components/Assets/Img/DeedsAtHome.png';
 import Covid19 from '../src/Components/Assets/Img/Covid19.png';
 import Yuumi from '../src/Components/Assets/Img/Yuumi.png';
+import { hotjar } from 'react-hotjar';
 
 
 
@@ -174,6 +175,16 @@ const Styles = styled.div`
  }
     `;
 
+hotjar.initialize('2902163', '6');
+
+// Identify the user
+hotjar.identify('USER_ID', { userProperty: 'value' });
+
+// Add an event
+hotjar.event('button-click');
+
+// Update SPA state
+hotjar.stateChange('/my/page');
 
 export const About = () => (
 
