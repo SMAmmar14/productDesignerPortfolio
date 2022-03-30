@@ -13,7 +13,7 @@ import fordLogo from '../src/Components/Assets/Img/FordLogo.svg';
 import FPPLogo from '../src/Components/Assets/Img/FPPLogo.svg';
 import rsa from '../src/Components/Assets/Img/RSA.jpg';
 import Journeys from '../src/Components/Assets/Img/Journeys.jpg';
-import LMD from '../src/Components/Assets/Img/LMD.jpg';
+import LMD from '../src/Components/Assets/Img/Quicker.png';
 import LMDLogo from '../src/Components/Assets/Img/assemblyf.jpg';
 import FPPBuilder from  '../src/Components/Assets/Img/FPPBuilder.jpg';
 import {NewsletterFooter} from './Components/NewsletterFooter';
@@ -100,12 +100,14 @@ export const Home = () => (
     imgProjectLogo={LMDLogo}
     imgCardLarge={LMD}
     cardTitleName = {"Quicker a AssemblyF Capstone Project"}
-    cardBodyText = {"Last Mile Delivery is a new urban multi modal delivery network. In this project we scale a delivery network 10X, reduce congestion by 166%, increase deliveries per hour by 160%. All during a pandemic. "}
+    cardBodyText = {"Quicker is an KaiOS smart feature phone mobile phone application. It aims to connect the lower SEC class of Pakistan to digital economy easily.  "}
     cardLink = {"/LMD"}
    />
    </Col>
  </Row>
+ 
 
+ {/*
  <Row> 
   <Col>
   <BigCard 
@@ -116,8 +118,10 @@ export const Home = () => (
     cardLink = {"/RSA"}
     />
    </Col>
- </Row>
+ </Row> */}
 
+ 
+ {/*
  <Row> 
   <Col>
   <BigCard 
@@ -128,9 +132,9 @@ export const Home = () => (
     cardLink = {"/FordPassPro"}
     />
    </Col>
- </Row>
+ </Row>*/}
 
-
+{/*
  <Row> 
   <Col>
     <BigCard 
@@ -143,6 +147,8 @@ export const Home = () => (
     />
    </Col>
  </Row>
+ */}
+
 
 </Container>
 

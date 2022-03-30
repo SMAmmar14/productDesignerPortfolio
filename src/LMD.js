@@ -3,12 +3,12 @@ import styled from 'styled-components';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
-import LMDCover from '../src/Components/Assets/Img/LMD.jpg';
+import LMDCover from '../src/Components/Assets/Img/Quicker.png';
 import Graph1 from '../src/Components/Assets/Img/Graph1.jpg';
 import iPhoneCamera from '../src/Components/Assets/Img/iPhoneCamera.jpg';
 import DeliveryResults from '../src/Components/Assets/Img/DeliveryResults.gif';
 import DeliveriesPerHour from '../src/Components/Assets/Img/DeliveriesPerHour.gif';
-import LMDHeader from '../src/Components/Assets/Img/LMDHeader.jpg'
+import LMDHeader from '../src/Components/Assets/Img/Quickercover.png'
 import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png'
 import LMDPersona from '../src/Components/Assets/Img/LMDPersona.png'
 import Jumbotron from 'react-bootstrap/Jumbotron';
@@ -409,11 +409,10 @@ export const LMD = () => (
             </p>
             <h5 className="subHeaderListCopy">Impact</h5>
             <ul className ="subHeaderListBodyCopy">
-              <li>Scaled the amount of deliveries per day by <b>10X</b>.</li>
-              <li>Evolved the product to <b>profitability</b>.</li>
-              <li>Increased deliveries per hour by <b>160%</b>.</li>
-              <li>Reduced congestion by <b>166%</b>.</li>
-              <li>Increased customer satisfaction by <b>120%</b>.</li>
+              <li>Concept tested on<b>4 users</b> .</li>
+              <li>Task completion rate upto<b>80%</b>.</li>
+         
+              <li>Concept like by <b>75% tested users</b>.</li>
             </ul>
           </div>
           <div className = "offset-xl-1 col-xl-6 col-md-7 col-sm-12 col-xs-12">
@@ -457,27 +456,30 @@ export const LMD = () => (
 <a id = "background">
   <Row>
   <div className="col-xl-12">
-    <h1 className ="projectBackgroundHeader">Last Mile Delivery Background</h1>
+    <h1 className ="projectBackgroundHeader">Sorry for the inconvenience. Case study is available on request</h1>
+    {/* 
     <h5 className="mt-4 projectBackgroundSubHeader">Congestion In Cities Is Getting Worse</h5>
     <p className="projectBackgroundBody">Congestion in mega cities is getting worse every year. This results in an increase in journey times and worsening air polloution in the city.
        90% of road space in London is taken up for transporting goods.
     </p>
     <h5 className="mt-4 projectBackgroundSubHeader">A new way of delivering parcels</h5>
     <p className="projectBackgroundBody">The Last Mile Delivery (LMD) project aims to help ease congestion off the roads and save the envionment. We do this by delivering parcels with a <b>multi modal</b> solution, that breaks down the journey of a parcel in the last mile.
-    </p>
+    </p>*/}
   </div>
 
 
   </Row>
-  
+    {/* 
   <Row>
   <div className="col-12">
   <img className = "mt-5 headerJumbotronImage" alt ="last mile delivery in action" src={LMDMultiModal} />
   </div>
   </Row>
+  */}
 </a>
 </Container>
 
+    {/* 
 <Container>
 <a id = "impact">
 
@@ -514,8 +516,9 @@ export const LMD = () => (
   </Row>
   </a>
   </Container>
+    */}
 
-
+  {/* 
 <Container>
   <a id="research">
   <Row>
@@ -545,9 +548,9 @@ export const LMD = () => (
   </a>
   </Container>
 
-      
+    */}   
 
-
+ {/* 
 <Container>
 <a id="prototype">
 <Row>
@@ -564,6 +567,9 @@ export const LMD = () => (
   </Row>
   </a>
   </Container>
+    */}   
+
+    {/* 
   <Container>
   <Row>
     <div className="col-12 mt-5">
@@ -668,7 +674,7 @@ export const LMD = () => (
 
     </Container>
 
-   
+    */}  
 
 
   <Jumbotron className="nextProjectHeader">
