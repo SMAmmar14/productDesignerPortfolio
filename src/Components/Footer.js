@@ -114,7 +114,7 @@
             <li className = "mb-1">
                 <NavLink to = "/">Portfolio</NavLink>
             </li>
-            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1MldGE5ivjakVQlz7Tk__cmltUkABL4S0/view">Resume</a></li>
+            <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1NyDxyLLQ2BkDDH9UGDRgPHI76dq78KNa/view?usp=sharing">Resume</a></li>
             <li className = "mb-1"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/syed-mohammad-ammar-053877145/">LinkedIn</a></li>
    
 

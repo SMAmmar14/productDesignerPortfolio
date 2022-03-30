@@ -232,7 +232,7 @@ export const About = () => (
             <div className="col-md-4 col-lg-4">
             <h5 className="TLDRSubHeader">Wild</h5>
             <div className = "TLDRBodyText">
-            <p> I love keeping up with FinTechs, Ride Hailing startups  and have a strong interest in someday founding a unicorn.</p>
+            <p> I love keeping up with startups and have a strong interest in someday founding a unicorn.</p>
             <p> Love the world of open source and try to give back to the community as and when i can. Therefore started a design thinking study group, where I am teaching a group 10 students about design. 
                 Majority of them are in highschool at the moment. </p>
             <p> I also love reading books, running and gaming. I'm currently playing a lot of Valorant.</p>
@@ -247,7 +247,7 @@ export const About = () => (
         </div>
 
       
-
+{/*
 
         <Container>
             <Row className ="justify-content-center">
@@ -292,7 +292,7 @@ export const About = () => (
                     </div>    
                 </Row> 
         </Container>
-
+ */}  
         <Jumbotron className="contactJumbotron">
         <Container>
             <Row>
