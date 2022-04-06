@@ -578,7 +578,13 @@ export const LMD = () => (
       <Row>
         <div className="col-12 mt-5">
           <h2 className="personaHeader">User Persona</h2>
+          <p>
+            After completing my interviews and gathering key insights. I created three user personas and then consolidated
+            into one which helped me to better understand who are my target users and allowed me to empathize with them while
+            designing.
+          </p>
         </div>
+
         <div className="col-12">
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
         </div>
