@@ -79,16 +79,7 @@ const Styles = styled.div`
 
     `;
 
-hotjar.initialize('2902163', '6');
 
-// Identify the user
-hotjar.identify('USER_ID', { userProperty: 'value' });
-
-// Add an event
-hotjar.event('button-click');
-
-// Update SPA state
-hotjar.stateChange('/my/page');
 
 export const Home = () => (
 
