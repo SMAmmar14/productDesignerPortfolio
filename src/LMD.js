@@ -574,21 +574,25 @@ export const LMD = () => (
       </a>
     </Container>
 
-<Container>
-    <Row>
-          <div className="col-12 mt-5">
-            <h2 className="personaHeader">User Persona</h2>
-          </div>
-          <div className="col-12">
-            <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
-          </div>
-        </Row>
-</Container>
-   <Row>
-          <div className="col-12 mt-5">
-            <h2 className="fieldResearchHeader">Case study construction in Progress 🏗️ </h2>
-          </div>
-        </Row>
+    <Container>
+      <Row>
+        <div className="col-12 mt-5">
+          <h2 className="personaHeader">User Persona</h2>
+        </div>
+        <div className="col-12">
+          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
+        </div>
+      </Row>
+    </Container>
+
+    <Container>
+      <Row>
+        <div className="col-12 mt-5">
+          <h2 className="fieldResearchHeader">Case study construction in Progress 🏗️ </h2>
+        </div>
+      </Row>
+    </Container>
+
     {/* 
 <Container>
 <a id="prototype">
