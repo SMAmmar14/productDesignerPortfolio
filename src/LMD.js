@@ -4,15 +4,16 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import LMDCover from '../src/Components/Assets/Img/Quicker.png';
-import Graph1 from '../src/Components/Assets/Img/Graph1.jpg';
+import Graph1 from '../src/Components/Assets/Img/backgroundImage.PNG';
 import iPhoneCamera from '../src/Components/Assets/Img/iPhoneCamera.jpg';
 import DeliveryResults from '../src/Components/Assets/Img/DeliveryResults.gif';
 import DeliveriesPerHour from '../src/Components/Assets/Img/DeliveriesPerHour.gif';
 import LMDHeader from '../src/Components/Assets/Img/Quickercover.png'
 import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png'
-import LMDPersona from '../src/Components/Assets/Img/LMDPersona.png'
+import LMDPersona from '../src/Components/Assets/Img/persona.jpeg'
+import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png'
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import {LinkContainer} from 'react-router-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 const Styles = styled.div`
@@ -372,92 +373,92 @@ line-height: 140%;
 
 export const LMD = () => (
 
-<Styles>
+  <Styles>
 
-<Container-fluid>
-        <img className = "headerJumbotronImage" 
-        alt ="last mile delivery in action" src={LMDHeader} />
-        <div className="mb-5"> </div>
-</Container-fluid>
+    <Container-fluid>
+      <img className="headerJumbotronImage"
+        alt="last mile delivery in action" src={LMDHeader} />
+      <div className="mb-5"> </div>
+    </Container-fluid>
 
-<Container>
-       <Row>
-       <div className="col-xl-12">
-         <h1 className="tagHeader">Quicker: AssemblyF Capstone Project</h1>
+    <Container>
+      <Row>
+        <div className="col-xl-12">
+          <h1 className="tagHeader">Quicker: AssemblyF Capstone Project</h1>
         </div>
-       <div className="col-xl-12">
-       <Button href = "#impact" className = "tagStyling shadow-none" variant="outline-dark">Impact</Button>
-       <Button href="#background" className = "tagStyling shadow-none" variant="outline-dark">Background</Button>
-       <Button href="#research" className = "tagStyling shadow-none" variant="outline-dark">User Research</Button>
-       <Button href="#prototype" className = "tagStyling shadow-none" variant="outline-dark">Prototype</Button>
-       <Button href="https://www.ford-mobility.eu/business-solutions/last-mile"className = "tagStyling shadow-none" variant="outline-dark" target="_blank">LMD Website</Button>
+        <div className="col-xl-12">
+          <Button href="#impact" className="tagStyling shadow-none" variant="outline-dark">Impact</Button>
+          <Button href="#background" className="tagStyling shadow-none" variant="outline-dark">Background</Button>
+          <Button href="#research" className="tagStyling shadow-none" variant="outline-dark">User Research</Button>
+          <Button href="#prototype" className="tagStyling shadow-none" variant="outline-dark">Prototype</Button>
+          <Button href="https://www.ford-mobility.eu/business-solutions/last-mile" className="tagStyling shadow-none" variant="outline-dark" target="_blank">LMD Website</Button>
 
-       </div>
-       </Row>
-       <hr className = "mt-4 solid"></hr>
-  </Container>
+        </div>
+      </Row>
+      <hr className="mt-4 solid"></hr>
+    </Container>
 
-<Container>
-        <Row className="mt-5">
-          <div className="col-md-5 col-xl-5 mb-5">
-            <h3 className="headerCopy">Project Overview</h3>
-            <h5 className="mt-4 subHeaderCopy">Problem</h5>
-            <p className="bodyCopy mb-4">More than 50% of the population in Pakistan does not use smartphones. The lower SEC class needs a way to connect with digital ecosystem without using smartphones.
-            </p> 
-            <h5 className="subHeaderCopy"> Solution</h5>
-            <p className="bodyCopy mb-4">The goal of the project was to design a KaiOS mobile feature phone application that allows the lower SEC class to order goods online without using smartphones.
-            </p>
-            <h5 className="subHeaderListCopy">Impact</h5>
-            <ul className ="subHeaderListBodyCopy">
-              <li>Concept tested on<b>4 users</b> .</li>
-              <li>Task completion rate upto<b>80%</b>.</li>
-         
-              <li>Concept like by <b>75% tested users</b>.</li>
+    <Container>
+      <Row className="mt-5">
+        <div className="col-md-5 col-xl-5 mb-5">
+          <h3 className="headerCopy">Project Overview</h3>
+          <h5 className="mt-4 subHeaderCopy">Problem</h5>
+          <p className="bodyCopy mb-4">More than 50% of the population in Pakistan does not use smartphones. The lower SEC class needs a way to connect with digital ecosystem without using smartphones.
+          </p>
+          <h5 className="subHeaderCopy"> Solution</h5>
+          <p className="bodyCopy mb-4">The goal of the project was to design a KaiOS mobile feature phone application that allows the lower SEC class to order goods online without using smartphones.
+          </p>
+          <h5 className="subHeaderListCopy">Impact</h5>
+          <ul className="subHeaderListBodyCopy">
+            <li>Concept tested on<b>4 users</b> .</li>
+            <li>Task completion rate upto<b>80%</b>.</li>
+
+            <li>Concept like by <b>75% tested users</b>.</li>
+          </ul>
+        </div>
+        <div className="offset-xl-1 col-xl-6 col-md-7 col-sm-12 col-xs-12">
+          <img className="projectPicture" alt="roadside assistance app" src={LMDCover} />
+        </div>
+      </Row>
+    </Container>
+
+
+
+    <Jumbotron className="myRoleHeader">
+      <Container>
+        <Row>
+          <div className="col-md-5">
+            <h3 className="myRoleHeaderCopy">My Role</h3>
+            <div className="myRoleBodyCopy">
+              <p>
+                It was a capstone project given to me by the AssemblyF team.
+              </p>
+              <p>I was responsible for designing the app, realising the vision and validating the feasibility of the concept.</p>
+            </div>
+          </div>
+          <div className="offset-md-2 col-md-5">
+            <h3 className="myRoleHeaderCopy">What I Did</h3>
+            <ul className="whatIDidCopy">
+              <li>Lead the product vision and strategy </li>
+              <li>Lead the visual design for the entire KaiOS app. </li>
+              <li>Designed UI kit</li>
+              <li>Lead the user research and strategy</li>
+              <li>Conducted usability testing session to check the feasibility of idea.</li>
+              <li>Final Presentation to a panel of Judges</li>
+
+
             </ul>
           </div>
-          <div className = "offset-xl-1 col-xl-6 col-md-7 col-sm-12 col-xs-12">
-          <img className = "projectPicture" alt ="roadside assistance app" src={LMDCover} />
-          </div>
         </Row>
- </Container>
+      </Container>
+    </Jumbotron>
 
-
-
- <Jumbotron className = "myRoleHeader">
-          <Container>
-            <Row>
-              <div className="col-md-5">
-               <h3 className="myRoleHeaderCopy">My Role</h3>
-               <div className="myRoleBodyCopy">
-               <p>
-               It was a capstone project given to me by the AssemblyF team.
-               </p>
-               <p>I was responsible for designing the app, realising the vision and validating the feasibility of the concept.</p>
-               </div>
-              </div>
-              <div className="offset-md-2 col-md-5">
-               <h3 className="myRoleHeaderCopy">What I Did</h3>
-               <ul className="whatIDidCopy">
-                 <li>Lead the product vision and strategy </li>
-                 <li>Lead the visual design for the entire KaiOS app. </li>
-                 <li>Designed UI kit</li>
-                 <li>Lead the user research and strategy</li>
-                  <li>Conducted usability testing session to check the feasibility of idea.</li>
-                 <li>Final Presentation to a panel of Judges</li>
-                
-                 
-               </ul> 
-              </div>
-            </Row>
-          </Container>
-      </Jumbotron>
-
-<Container>
-<a id = "background">
-  <Row>
-  <div className="col-xl-12">
-    <h1 className ="projectBackgroundHeader">Sorry for the inconvenience. Case study is available on request</h1>
-    {/* 
+    <Container>
+      <a id="background">
+        <Row>
+          <div className="col-xl-12">
+            <h1 className="projectBackgroundHeader">Sorry for the inconvenience. Case study is available on request</h1>
+            {/* 
     <h5 className="mt-4 projectBackgroundSubHeader">Congestion In Cities Is Getting Worse</h5>
     <p className="projectBackgroundBody">Congestion in mega cities is getting worse every year. This results in an increase in journey times and worsening air polloution in the city.
        90% of road space in London is taken up for transporting goods.
@@ -465,92 +466,127 @@ export const LMD = () => (
     <h5 className="mt-4 projectBackgroundSubHeader">A new way of delivering parcels</h5>
     <p className="projectBackgroundBody">The Last Mile Delivery (LMD) project aims to help ease congestion off the roads and save the envionment. We do this by delivering parcels with a <b>multi modal</b> solution, that breaks down the journey of a parcel in the last mile.
     </p>*/}
-  </div>
+          </div>
 
 
-  </Row>
-    {/* 
+        </Row>
+        {/*        
   <Row>
   <div className="col-12">
   <img className = "mt-5 headerJumbotronImage" alt ="last mile delivery in action" src={LMDMultiModal} />
   </div>
-  </Row>
-  */}
-</a>
+  </Row>*/}
+
+      </a>
+    </Container>
+
+
+
+
+    <Container>
+      <a id="impact">
+
+        <Row>
+          <div className="col-12 mt-5">
+            <h2 className="fieldResearchHeader">Quicker Background 📒</h2>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-xl-6 mb-5 mt-3">
+            <p className="fieldResearchBodyCopy">Pakistan is an emerging mobile economy, with digital technologies beginning to transform the way people live and
+              work. For a growing number of citizens, digital platforms have become the primary channel for accessing public
+              and private services. However, Pakistan
+              still has a sizeable ‘coverage gap’ and lags behind peers in certain areas; for example, mobile broadband6 accounts
+              for less than five in 10 mobile connections. Pakistan also scored 39.8 in the GSMA’s latest Mobile Connectivity
+              Index, compared to an average of 45.7 for South Asia.   </p>
+
+            <h4 className="fieldResearchSubHeader mt-2">Key Insights:</h4>
+            <ul className="fieldResearchList">
+              <li>More than 50% of the populations does not own smartphones.</li>
+              <li className="mt-2">Only 30% Pakistan's populations is exposed to the power of mobile internet.</li>
+              <li className="mt-2">Smartphones are expensive. Data plans cost too much. The lack of digital skills and relevant apps makes them stay rather with a low cost basic phone.</li>
+            </ul>
+          </div>
+          <div className="col-xl-6 mt-5 mb-5">
+            <img className="metricPicture" alt="LMD metrics for success" src={Graph1} />
+          </div>
+        </Row>
+
+
+
+
+      </a>
+    </Container>
+
+
+    <Container>
+      <a id="impact">
+
+        <Row>
+          <div className="col-12 ">
+            <h2 className="fieldResearchHeader">The Research 📜</h2>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-xl-12 mb-5 mt-3">
+            <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
+
+          </div>
+        </Row>
+
+      </a>
+    </Container>
+
+
+
+
+    <Container>
+      <a id="research">
+        <Row>
+          <div >
+            <h2 className="fieldResearchHeader">Primary Research 🕵️</h2>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-xl-6 mb-5 mt-3">
+            <h4 className="fieldResearchSubHeader"> Building empathy with our users</h4>
+            <p className="fieldResearchBodyCopy">It’s important as a designer to build empathy with our end users. By talking and listening to them allowed me to understand the pain why they are unable to enter the digital ecosystem.
+            </p>
+            <h4 className="fieldResearchSubHeader mt-2">Key Pain Points:</h4>
+            <ul className="fieldResearchList">
+              <li>Due to lack of income there are no savings.</li>
+              <li className="mt-2">Due to lack of knowledge it is difficult for them to use smartphone.</li>
+              <li className="mt-2">All of the users thought in order to purchase from ecommerce
+                stores you have to use credit/debit card. </li>
+              <li className="mt-2">The poor law and order situation in the city forces them to keep
+                a secondary phone that is a feature phone. </li>
+              <li>Majority of the participants thought that online items are very
+                expensive and seller sells fake items.</li>
+            </ul>
+
+          </div>
+
+          <div className="col-xl-6 mb-5 mt-3">
+            <img className=" headerJumbotronImage" alt="last mile delivery in action" src={SubwayUncle} />
+          </div>
+
+        </Row>
+      </a>
+    </Container>
+
+<Container>
+    <Row>
+          <div className="col-12 mt-5">
+            <h2 className="personaHeader">User Persona</h2>
+          </div>
+          <div className="col-12">
+            <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
+          </div>
+        </Row>
 </Container>
 
+
     {/* 
-<Container>
-<a id = "impact">
-
-  <Row>
-    <div className="col-12 mt-5">
-    <h2 className = "fieldResearchHeader">Measuring Impact And Success</h2>
-    </div>
-    </Row>
-    <Row>
-    <div className="col-xl-6 mb-5 mt-3">
-      <h4 className = "fieldResearchSubHeader"> Scaling up using iOS App</h4>
-      <p className="fieldResearchBodyCopy">It was made clear from the start
-      of the project we wanted to scale up to 1000 parcels a day, to make the project profitable. The iOS app will be a key part to reach this target with the porters using the app to deliver the parcels.
-      </p>
-      <h4 className="fieldResearchSubHeader mt-2">Key Metrics and Targets:</h4>
-      <ul className="fieldResearchList">
-        <li>Getting porters to deliver 16 parcels per hour.</li>
-        <li className="mt-2">Delivering 1000 parcels a day.</li>
-        <li className="mt-2">Adding new post codes and areas successfully.</li>
-        <li className="mt-2">Allowing Hermes to take full autonomy of the pilot without Ford helping out.</li>
-      </ul>
-    </div>
-    <div className="col-xl-6 mt-5 mb-5">
-    <img className = "metricPicture" alt ="LMD metrics for success" src={Graph1} />
-    </div>
-    </Row>
-    <Row>
-    <div className="col-12 mt-5">
-    <h2 className="personaHeader">Persona For Our Porters</h2>
-    </div>
-    <div className="col-12">
-    <img className = "mt-3 headerJumbotronImage" alt ="last mile delivery in action" src={LMDPersona} />
-    </div>
-  </Row>
-  </a>
-  </Container>
-    */}
-
-  {/* 
-<Container>
-  <a id="research">
-  <Row>
-    <div className="col-12 mt-5">
-    <h2 className = "fieldResearchHeader">Field Research</h2>
-    </div>
-    </Row>
-    <Row>
-    <div className="col-xl-6 mb-5 mt-3">
-      <h4 className = "fieldResearchSubHeader"> Building empathy with our users</h4>
-      <p className="fieldResearchBodyCopy">It’s important as a designer to build empathy with our end users. By experiencing the delivery process first hand as a porter allowed me to understand the pain porters porters face. 
-      </p>
-      <h4 className="fieldResearchSubHeader mt-2">Key Porter Pain Points:</h4>
-      <ul className="fieldResearchList">
-        <li>Traffic and congestion in the city adds significant journey time</li>
-        <li className="mt-2">Porters want to deliver parcels as quick as possible to get the job done</li>
-        <li className="mt-2">Native in app navigation isn't as good as using Waze or Google Maps </li>
-        <li className="mt-2">When leaving a parcel in a safe place they can get stolen </li>
-      </ul>
-    </div>
-    <div className="col-xl-6 mb-5">
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kaArF7nRKbQ" allowfullscreen></iframe>
-        </div>
-    </div>
-    </Row>
-  </a>
-  </Container>
-
-    */}   
-
- {/* 
 <Container>
 <a id="prototype">
 <Row>
@@ -567,7 +603,7 @@ export const LMD = () => (
   </Row>
   </a>
   </Container>
-    */}   
+    */}
 
     {/* 
   <Container>
@@ -674,33 +710,33 @@ export const LMD = () => (
 
     </Container>
 
-    */}  
+    */}
 
 
-  <Jumbotron className="nextProjectHeader">
-        <Container>
-            <Row>
-            
-            <div className="col-lg-6 md-12">
-              <h3 className ="nextProjectHeaderCopy">Next Project</h3>
-              </div>
-            </Row>
-                <Row>
-                <div className="col-lg-6 col-12">
-                    <p className="nextProjectSubHeaderCopy">FordPass</p>
-                </div>
-                </Row> 
-                <Row>
-                <div className="col-12">
-                    <LinkContainer to = "/RSA"> 
-                    <Button className = "buttonStyling" variant="outline-light">View Project</Button>
-                    </LinkContainer>
-                </div>
-                </Row>
-        </Container>
-        </Jumbotron>
+    <Jumbotron className="nextProjectHeader">
+      <Container>
+        <Row>
 
-      
-      
-</Styles>
+          <div className="col-lg-6 md-12">
+            <h3 className="nextProjectHeaderCopy">Next Project</h3>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-lg-6 col-12">
+            <p className="nextProjectSubHeaderCopy">FordPass</p>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-12">
+            <LinkContainer to="/RSA">
+              <Button className="buttonStyling" variant="outline-light">View Project</Button>
+            </LinkContainer>
+          </div>
+        </Row>
+      </Container>
+    </Jumbotron>
+
+
+
+  </Styles>
 )
