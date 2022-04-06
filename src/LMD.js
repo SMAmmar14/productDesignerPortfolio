@@ -8,10 +8,10 @@ import Graph1 from '../src/Components/Assets/Img/backgroundImage.PNG';
 import iPhoneCamera from '../src/Components/Assets/Img/iPhoneCamera.jpg';
 import DeliveryResults from '../src/Components/Assets/Img/DeliveryResults.gif';
 import DeliveriesPerHour from '../src/Components/Assets/Img/DeliveriesPerHour.gif';
-import LMDHeader from '../src/Components/Assets/Img/QuickerCover.png'
-import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png'
-import LMDPersona from '../src/Components/Assets/Img/persona.jpeg'
-import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png'
+import LMDHeader from '../src/Components/Assets/Img/QuickerCover.png';
+import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png';
+import LMDPersona from '../src/Components/Assets/Img/persona.jpeg';
+import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
 
