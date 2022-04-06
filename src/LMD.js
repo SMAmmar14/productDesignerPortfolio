@@ -584,8 +584,11 @@ export const LMD = () => (
           </div>
         </Row>
 </Container>
-
-
+   <Row>
+          <div className="col-12 mt-5">
+            <h2 className="fieldResearchHeader">Case study construction in Progress 🏗️ </h2>
+          </div>
+        </Row>
     {/* 
 <Container>
 <a id="prototype">
