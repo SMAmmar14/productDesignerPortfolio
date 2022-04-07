@@ -12,6 +12,7 @@ import LMDHeader from '../src/Components/Assets/Img/coverphoto.png';
 import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png';
 import LMDPersona from '../src/Components/Assets/Img/userpersona.jpeg';
 import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png';
+import Reframedquestion from '../src/Components/Assets/Img/reframedQuestion.png';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -387,11 +388,10 @@ export const LMD = () => (
           <h1 className="tagHeader">Quicker: AssemblyF Capstone Project</h1>
         </div>
         <div className="col-xl-12">
-          <Button href="#impact" className="tagStyling shadow-none" variant="outline-dark">Impact</Button>
-          <Button href="#background" className="tagStyling shadow-none" variant="outline-dark">Background</Button>
-          <Button href="#research" className="tagStyling shadow-none" variant="outline-dark">User Research</Button>
-          <Button href="#prototype" className="tagStyling shadow-none" variant="outline-dark">Prototype</Button>
-          <Button href="https://www.ford-mobility.eu/business-solutions/last-mile" className="tagStyling shadow-none" variant="outline-dark" target="_blank">LMD Website</Button>
+          <Button  className="tagStyling shadow-none" variant="outline-dark">Impact</Button>
+          <Button  className="tagStyling shadow-none" variant="outline-dark">Background</Button>
+          <Button  className="tagStyling shadow-none" variant="outline-dark">User Research</Button>
+          <Button  className="tagStyling shadow-none" variant="outline-dark">Prototype</Button>
 
         </div>
       </Row>
@@ -453,38 +453,12 @@ export const LMD = () => (
       </Container>
     </Jumbotron>
 
-    <Container>
-      <a id="background">
-        <Row>
-          <div className="col-xl-12">
-            <h1 className="projectBackgroundHeader">Sorry for the inconvenience. Case study is available on request</h1>
-            {/* 
-    <h5 className="mt-4 projectBackgroundSubHeader">Congestion In Cities Is Getting Worse</h5>
-    <p className="projectBackgroundBody">Congestion in mega cities is getting worse every year. This results in an increase in journey times and worsening air polloution in the city.
-       90% of road space in London is taken up for transporting goods.
-    </p>
-    <h5 className="mt-4 projectBackgroundSubHeader">A new way of delivering parcels</h5>
-    <p className="projectBackgroundBody">The Last Mile Delivery (LMD) project aims to help ease congestion off the roads and save the envionment. We do this by delivering parcels with a <b>multi modal</b> solution, that breaks down the journey of a parcel in the last mile.
-    </p>*/}
-          </div>
-
-
-        </Row>
-        {/*        
-  <Row>
-  <div className="col-12">
-  <img className = "mt-5 headerJumbotronImage" alt ="last mile delivery in action" src={LMDMultiModal} />
-  </div>
-  </Row>*/}
-
-      </a>
-    </Container>
 
 
 
 
     <Container>
-      <a id="impact">
+      
 
         <Row>
           <div className="col-12 mt-5">
@@ -515,12 +489,12 @@ export const LMD = () => (
 
 
 
-      </a>
+      
     </Container>
 
 
     <Container>
-      <a id="impact">
+      
 
         <Row>
           <div className="col-12 ">
@@ -534,14 +508,14 @@ export const LMD = () => (
           </div>
         </Row>
 
-      </a>
+    
     </Container>
 
 
 
 
     <Container>
-      <a id="research">
+      
         <Row>
           <div >
             <h2 className="fieldResearchHeader">Primary Research 🕵️</h2>
@@ -571,7 +545,7 @@ export const LMD = () => (
           </div>
 
         </Row>
-      </a>
+      
     </Container>
 
     <Container>
@@ -590,6 +564,30 @@ export const LMD = () => (
         </div>
       </Row>
     </Container>
+
+
+        <Container>
+      
+
+        <Row>
+          <div className="col-12 ">
+            <h2 className="fieldResearchHeader">Reframed Design Question 📜</h2>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-xl-12 mb-5 mt-3">
+            <p className="fieldResearchBodyCopy">The above findings helped me further narrow down the problem statement, so I came up
+             with the final design question: </p>
+
+
+          </div>
+        </Row>
+
+      
+    </Container>
+
+
+
 
     <Container>
       <Row>
@@ -723,9 +721,9 @@ export const LMD = () => (
 
     </Container>
 
-    */}
+  
 
-
+ {/* 
     <Jumbotron className="nextProjectHeader">
       <Container>
         <Row>
@@ -749,7 +747,7 @@ export const LMD = () => (
       </Container>
     </Jumbotron>
 
-
+  */}
 
   </Styles>
 )
