@@ -12,7 +12,9 @@ import LMDHeader from '../src/Components/Assets/Img/coverphoto.png';
 import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png';
 import LMDPersona from '../src/Components/Assets/Img/userpersona.jpeg';
 import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png';
-import Reframedquestion from '../src/Components/Assets/Img/reframedQuestion.png';
+import Matrix from '../src/Components/Assets/Img/matrix.png';
+import Flow1 from '../src/Components/Assets/Img/flow1.png';
+import Flow2 from '../src/Components/Assets/Img/flow2.png';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -370,6 +372,15 @@ line-height: 140%;
     color: #FFFFFF;
     }
 
+    .reframedDesignQuestion {
+       color: #fff;
+           background-color: #2e2e2e;
+           padding: 3rem;
+           text-align: Center;
+           border-radius: 5px;
+
+    }
+
 `;
 
 export const LMD = () => (
@@ -388,10 +399,10 @@ export const LMD = () => (
           <h1 className="tagHeader">Quicker: AssemblyF Capstone Project</h1>
         </div>
         <div className="col-xl-12">
-          <Button  className="tagStyling shadow-none" variant="outline-dark">Impact</Button>
-          <Button  className="tagStyling shadow-none" variant="outline-dark">Background</Button>
-          <Button  className="tagStyling shadow-none" variant="outline-dark">User Research</Button>
-          <Button  className="tagStyling shadow-none" variant="outline-dark">Prototype</Button>
+          <Button className="tagStyling shadow-none" variant="outline-dark">Impact</Button>
+          <Button className="tagStyling shadow-none" variant="outline-dark">Background</Button>
+          <Button className="tagStyling shadow-none" variant="outline-dark">User Research</Button>
+          <Button className="tagStyling shadow-none" variant="outline-dark">Prototype</Button>
 
         </div>
       </Row>
@@ -458,100 +469,100 @@ export const LMD = () => (
 
 
     <Container>
-      
-
-        <Row>
-          <div className="col-12 mt-5">
-            <h2 className="fieldResearchHeader">Quicker Background 📒</h2>
-          </div>
-        </Row>
-        <Row>
-          <div className="col-xl-6 mb-5 mt-3">
-            <p className="fieldResearchBodyCopy">Pakistan is an emerging mobile economy, with digital technologies beginning to transform the way people live and
-              work. For a growing number of citizens, digital platforms have become the primary channel for accessing public
-              and private services. However, Pakistan
-              still has a sizeable ‘coverage gap’ and lags behind peers in certain areas; for example, mobile broadband6 accounts
-              for less than five in 10 mobile connections. Pakistan also scored 39.8 in the GSMA’s latest Mobile Connectivity
-              Index, compared to an average of 45.7 for South Asia.   </p>
-
-            <h4 className="fieldResearchSubHeader mt-2">Key Insights:</h4>
-            <ul className="fieldResearchList">
-              <li>More than 50% of the populations does not own smartphones.</li>
-              <li className="mt-2">Only 30% Pakistan's populations is exposed to the power of mobile internet.</li>
-              <li className="mt-2">Smartphones are expensive. Data plans cost too much. The lack of digital skills and relevant apps makes them stay rather with a low cost basic phone.</li>
-            </ul>
-          </div>
-          <div className="col-xl-6 mt-5 mb-5">
-            <img className="metricPicture" alt="LMD metrics for success" src={Graph1} />
-          </div>
-        </Row>
 
 
+      <Row>
+        <div className="col-12 mt-5">
+          <h2 className="fieldResearchHeader">Quicker Background 📒</h2>
+        </div>
+      </Row>
+      <Row>
+        <div className="col-xl-6 mb-5 mt-3">
+          <p className="fieldResearchBodyCopy">Pakistan is an emerging mobile economy, with digital technologies beginning to transform the way people live and
+            work. For a growing number of citizens, digital platforms have become the primary channel for accessing public
+            and private services. However, Pakistan
+            still has a sizeable ‘coverage gap’ and lags behind peers in certain areas; for example, mobile broadband6 accounts
+            for less than five in 10 mobile connections. Pakistan also scored 39.8 in the GSMA’s latest Mobile Connectivity
+            Index, compared to an average of 45.7 for South Asia.   </p>
+
+          <h4 className="fieldResearchSubHeader mt-2">Key Insights:</h4>
+          <ul className="fieldResearchList">
+            <li>More than 50% of the populations does not own smartphones.</li>
+            <li className="mt-2">Only 30% Pakistan's populations is exposed to the power of mobile internet.</li>
+            <li className="mt-2">Smartphones are expensive. Data plans cost too much. The lack of digital skills and relevant apps makes them stay rather with a low cost basic phone.</li>
+          </ul>
+        </div>
+        <div className="col-xl-6 mt-5 mb-5">
+          <img className="metricPicture" alt="LMD metrics for success" src={Graph1} />
+        </div>
+      </Row>
 
 
-      
+
+
+
     </Container>
 
 
     <Container>
-      
 
-        <Row>
-          <div className="col-12 ">
-            <h2 className="fieldResearchHeader">The Research 📜</h2>
-          </div>
-        </Row>
-        <Row>
-          <div className="col-xl-12 mb-5 mt-3">
-            <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
 
-          </div>
-        </Row>
+      <Row>
+        <div className="col-12 ">
+          <h2 className="fieldResearchHeader">The Research 📜</h2>
+        </div>
+      </Row>
+      <Row>
+        <div className="col-xl-12 mb-5 mt-3">
+          <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
 
-    
+        </div>
+      </Row>
+
+
     </Container>
 
 
 
 
     <Container>
-      
-        <Row>
-          <div >
-            <h2 className="fieldResearchHeader">Primary Research 🕵️</h2>
-          </div>
-        </Row>
-        <Row>
-          <div className="col-xl-6 mb-5 mt-3">
-            <h4 className="fieldResearchSubHeader"> Building empathy with our users</h4>
-            <p className="fieldResearchBodyCopy">It’s important as a designer to build empathy with our end users. By talking and listening to them allowed me to understand the pain why they are unable to enter the digital ecosystem.
-            </p>
-            <h4 className="fieldResearchSubHeader mt-2">Key Pain Points:</h4>
-            <ul className="fieldResearchList">
-              <li>Due to lack of income there are no savings.</li>
-              <li className="mt-2">Due to lack of knowledge it is difficult for them to use smartphone.</li>
-              <li className="mt-2">All of the users thought in order to purchase from ecommerce
-                stores you have to use credit/debit card. </li>
-              <li className="mt-2">The poor law and order situation in the city forces them to keep
-                a secondary phone that is a feature phone. </li>
-              <li>Majority of the participants thought that online items are very
-                expensive and seller sells fake items.</li>
-            </ul>
 
-          </div>
+      <Row>
+        <div >
+          <h2 className="fieldResearchHeader">Primary Research 🕵️</h2>
+        </div>
+      </Row>
+      <Row>
+        <div className="col-xl-6 mb-5 mt-3">
+          <h4 className="fieldResearchSubHeader"> Building empathy with our users</h4>
+          <p className="fieldResearchBodyCopy">It’s important as a designer to build empathy with our end users. By talking and listening to them allowed me to understand the pain why they are unable to enter the digital ecosystem.
+          </p>
+          <h4 className="fieldResearchSubHeader mt-2">Key Pain Points:</h4>
+          <ul className="fieldResearchList">
+            <li>Due to lack of income there are no savings.</li>
+            <li className="mt-2">Due to lack of knowledge it is difficult for them to use smartphone.</li>
+            <li className="mt-2">All of the users thought in order to purchase from ecommerce
+              stores you have to use credit/debit card. </li>
+            <li className="mt-2">The poor law and order situation in the city forces them to keep
+              a secondary phone that is a feature phone. </li>
+            <li>Majority of the participants thought that online items are very
+              expensive and seller sells fake items.</li>
+          </ul>
 
-          <div className="col-xl-6 mb-5 mt-3">
-            <img className=" headerJumbotronImage" alt="last mile delivery in action" src={SubwayUncle} />
-          </div>
+        </div>
 
-        </Row>
-      
+        <div className="col-xl-6 mb-5 mt-3">
+          <img className=" headerJumbotronImage" alt="last mile delivery in action" src={SubwayUncle} />
+        </div>
+
+      </Row>
+
     </Container>
 
     <Container>
       <Row>
         <div className="col-12 mt-5">
-          <h2 className="personaHeader">User Persona</h2>
+          <h2 className="personaHeader">User Persona 👨</h2>
           <p>
             After completing my interviews and gathering key insights. I created three user personas and then consolidated
             into one which helped me to better understand who are my target users and allowed me to empathize with them while
@@ -566,25 +577,82 @@ export const LMD = () => (
     </Container>
 
 
-        <Container>
-      
+    <Container >
+      <Row>
+        <div className="col-12 ">
+          <h2 className="fieldResearchHeader">Reframed Design Question ❓</h2>
+        </div>
+      </Row>
+      <Row>
+        <div className="col-xl-12 mb-5 mt-3">
+          <p className="fieldResearchBodyCopy">The above findings helped me further narrow down the problem statement, so I came up
+            with the final design question: </p>
+          <h4 className='reframedDesignQuestion'>How might we make digital eCommerce experience accessible
+            for a lower SEC class Pakistani, So that they can purchase
+            goods online without using smartphones
+          </h4>
 
-        <Row>
-          <div className="col-12 ">
-            <h2 className="fieldResearchHeader">Reframed Design Question 📜</h2>
-          </div>
-        </Row>
-        <Row>
-          <div className="col-xl-12 mb-5 mt-3">
-            <p className="fieldResearchBodyCopy">The above findings helped me further narrow down the problem statement, so I came up
-             with the final design question: </p>
+        </div>
+      </Row>
 
 
-          </div>
-        </Row>
-
-      
     </Container>
+
+
+
+
+
+
+    <Container>
+
+      <Row>
+        <div >
+          <h2 className="fieldResearchHeader">Ideation 💡 </h2>
+        </div>
+      </Row>
+      <Row>
+        <div className="col-xl-6 mb-5 mt-3">
+          <p className="fieldResearchBodyCopy">The idea behind this design was to build a experience
+            that makes the online shopping more accessible, and more interactive to the lower SEC class.
+          </p>
+
+
+        </div>
+
+        <div className="col-xl-6 mb-5 mt-3">
+          <img className=" headerJumbotronImage" alt="last mile delivery in action" src={Matrix} />
+        </div>
+
+      </Row>
+
+    </Container>
+
+    
+
+
+
+
+
+    <Container>
+      <Row>
+        <div className="col-12 mt-5">
+          <h2 className="personaHeader">User Flow 🧶</h2>
+          <p>
+            After completing my interviews and gathering key insights. I created three user personas and then consolidated
+            into one which helped me to better understand who are my target users and allowed me to empathize with them while
+            designing.
+          </p>
+        </div>
+
+        <div className="col-12">
+          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow1} />
+          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow2} />
+
+        </div>
+      </Row>
+    </Container>
+
+
 
 
 
