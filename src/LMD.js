@@ -15,6 +15,7 @@ import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png';
 import Matrix from '../src/Components/Assets/Img/matrix.png';
 import Flow1 from '../src/Components/Assets/Img/flow1.png';
 import Flow2 from '../src/Components/Assets/Img/flow2.png';
+import Wireframe from '../src/Components/Assets/Img/Sketch.png';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -508,16 +509,18 @@ export const LMD = () => (
 
 
       <Row>
-        <div className="col-12 ">
+        <div className="col-12 mt-5 ">
           <h2 className="fieldResearchHeader">The Research 📜</h2>
         </div>
-      </Row>
-      <Row>
+
+        
         <div className="col-xl-12 mb-5 mt-3">
           <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
 
         </div>
       </Row>
+ 
+     
 
 
     </Container>
@@ -525,7 +528,7 @@ export const LMD = () => (
 
 
 
-    <Container>
+    <Container className='mt-5'>
 
       <Row>
         <div >
@@ -534,7 +537,6 @@ export const LMD = () => (
       </Row>
       <Row>
         <div className="col-xl-6 mb-5 mt-3">
-          <h4 className="fieldResearchSubHeader"> Building empathy with our users</h4>
           <p className="fieldResearchBodyCopy">It’s important as a designer to build empathy with our end users. By talking and listening to them allowed me to understand the pain why they are unable to enter the digital ecosystem.
           </p>
           <h4 className="fieldResearchSubHeader mt-2">Key Pain Points:</h4>
@@ -559,27 +561,41 @@ export const LMD = () => (
 
     </Container>
 
+
+
+    
     <Container>
+
       <Row>
-        <div className="col-12 mt-5">
-          <h2 className="personaHeader">User Persona 👨</h2>
-          <p>
-            After completing my interviews and gathering key insights. I created three user personas and then consolidated
-            into one which helped me to better understand who are my target users and allowed me to empathize with them while
-            designing.
-          </p>
+        <div className="col-12 mt-5 ">
+          <h2 className="fieldResearchHeader">User Persona 👨</h2>
         </div>
 
-        <div className="col-12">
-          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
+        
+        <div className="col-xl-12 mt-3">
+          <p className="fieldResearchBodyCopy">   After completing my interviews and gathering key insights. I created three 
+          user personas and then consolidated into one which helped me 
+          to better understand who are my target users and allowed me to empathize with them while designing. </p>
+
+        </div>
+
+           <div className="col-12">
+          <img className=" headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
         </div>
       </Row>
+ 
+     
+
+
     </Container>
+
+
+
 
 
     <Container >
       <Row>
-        <div className="col-12 ">
+        <div className="col-12 mt-5">
           <h2 className="fieldResearchHeader">Reframed Design Question ❓</h2>
         </div>
       </Row>
@@ -633,24 +649,67 @@ export const LMD = () => (
 
 
 
-    <Container>
+
+
+      <Container>
+
       <Row>
-        <div className="col-12 mt-5">
-          <h2 className="personaHeader">User Flow 🧶</h2>
-          <p>
-            After completing my interviews and gathering key insights. I created three user personas and then consolidated
-            into one which helped me to better understand who are my target users and allowed me to empathize with them while
-            designing.
-          </p>
+        <div className="col-12 mt-5 ">
+          <h2 className="fieldResearchHeader">User Flow 🧶</h2>
         </div>
 
-        <div className="col-12">
+        
+        <div className="col-xl-12 mt-3">
+          <p className="fieldResearchBodyCopy">  After completing my interviews and gathering key insights. I created three user personas and then consolidated
+            into one which helped me to better understand who are my target users and allowed me to empathize with them while
+            designing. </p>
+
+        </div>
+
+            <div className="col-12">
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow1} />
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow2} />
 
         </div>
       </Row>
+ 
+     
+
+
     </Container>
+
+
+
+    
+      <Container>
+
+      <Row>
+        <div className="col-12 mt-5 ">
+          <h2 className="fieldResearchHeader">Design Solution 🎨</h2>
+        </div>
+
+        
+        <div className="col-xl-12 mt-3">
+          <p className="fieldResearchBodyCopy"> Using the structure of the user flow, I drew out sketches of the app's main features first on
+          paper. For best approval, I drew multiple sketches of each screen and later based on these sketches made some digital wireframes </p>
+
+        </div>
+
+            <div className="col-12">
+          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Wireframe} />
+
+        </div>
+      </Row>
+ 
+     
+
+
+    </Container>
+
+
+
+
+
 
 
 
