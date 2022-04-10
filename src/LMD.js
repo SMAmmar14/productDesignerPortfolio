@@ -16,6 +16,7 @@ import Matrix from '../src/Components/Assets/Img/matrix.png';
 import Flow1 from '../src/Components/Assets/Img/flow1.png';
 import Flow2 from '../src/Components/Assets/Img/flow2.png';
 import Wireframe from '../src/Components/Assets/Img/Sketch.png';
+import Iteration from '../src/Components/Assets/Img/Iterations.PNG'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -699,6 +700,47 @@ export const LMD = () => (
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Wireframe} />
 
         </div>
+
+          <div className="col-xl-12 mt-3">
+          <p className="fieldResearchBodyCopy"> I made some prototypes and ran two usability testings.
+           The goal was to get feedback on the concept.</p>
+        </div>
+
+                 <div className="col-12">
+          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Iteration} />
+
+        </div>
+
+          <div className="col-6 mt-3 ">
+          <h3 >What I Learn:</h3>
+
+                <ul className="fieldResearchList">
+            <li>Users were not able to understand majority of the content in english due to language barrier</li>
+            <li className="mt-2">Feature of “View Cart” seems disconnected. 
+            Most users did not realize the importance of feature </li>
+            <li className="mt-2">Users were unable to relate with the images used on the cards. </li>
+            <li className="mt-2">Major accessibility issues were spotted by users on CTAs and cards.</li>
+       
+          </ul>
+        </div>
+
+         <div className="col-6 mt-3 ">
+          <h3 >According to the feedback:</h3>
+
+                <ul className="fieldResearchList">
+            <li>I introduced Roman Urdu to reduce language barrier</li>
+            <li className="mt-2">Added a Cart Icon with  View Cart text to improve the connection </li>
+            <li className="mt-2">Instead of images switched to illustrations that could relate to target audience </li>
+            <li className="mt-2">Everything was then run under WCAG rules to fix the accessibility issues </li>
+       
+          </ul>
+        </div>
+
+   
+
+
+
+
       </Row>
  
      
