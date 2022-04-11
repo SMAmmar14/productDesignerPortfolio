@@ -16,6 +16,7 @@ import Matrix from '../src/Components/Assets/Img/matrix.png';
 import Flow1 from '../src/Components/Assets/Img/flow1.png';
 import Flow2 from '../src/Components/Assets/Img/flow2.png';
 import Wireframe from '../src/Components/Assets/Img/Sketch.png';
+import Hifi1 from '../src/Components/Assets/Img/Hifi1.png';
 import Iteration from '../src/Components/Assets/Img/Iterations.PNG'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
@@ -514,14 +515,14 @@ export const LMD = () => (
           <h2 className="fieldResearchHeader">The Research 📜</h2>
         </div>
 
-        
+
         <div className="col-xl-12 mb-5 mt-3">
           <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
 
         </div>
       </Row>
- 
-     
+
+
 
 
     </Container>
@@ -564,7 +565,7 @@ export const LMD = () => (
 
 
 
-    
+
     <Container>
 
       <Row>
@@ -572,20 +573,20 @@ export const LMD = () => (
           <h2 className="fieldResearchHeader">User Persona 👨</h2>
         </div>
 
-        
+
         <div className="col-xl-12 mt-3">
-          <p className="fieldResearchBodyCopy">   After completing my interviews and gathering key insights. I created three 
-          user personas and then consolidated into one which helped me 
-          to better understand who are my target users and allowed me to empathize with them while designing. </p>
+          <p className="fieldResearchBodyCopy">   After completing my interviews and gathering key insights. I created three
+            user personas and then consolidated into one which helped me
+            to better understand who are my target users and allowed me to empathize with them while designing. </p>
 
         </div>
 
-           <div className="col-12">
+        <div className="col-12">
           <img className=" headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
         </div>
       </Row>
- 
-     
+
+
 
 
     </Container>
@@ -644,7 +645,6 @@ export const LMD = () => (
 
     </Container>
 
-    
 
 
 
@@ -652,14 +652,15 @@ export const LMD = () => (
 
 
 
-      <Container>
+
+    <Container>
 
       <Row>
         <div className="col-12 mt-5 ">
           <h2 className="fieldResearchHeader">User Flow 🧶</h2>
         </div>
 
-        
+
         <div className="col-xl-12 mt-3">
           <p className="fieldResearchBodyCopy">  After completing my interviews and gathering key insights. I created three user personas and then consolidated
             into one which helped me to better understand who are my target users and allowed me to empathize with them while
@@ -667,91 +668,109 @@ export const LMD = () => (
 
         </div>
 
-            <div className="col-12">
+        <div className="col-12">
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow1} />
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow2} />
 
         </div>
       </Row>
- 
-     
+
+
 
 
     </Container>
 
 
 
-    
-      <Container>
+
+    <Container>
 
       <Row>
         <div className="col-12 mt-5 ">
           <h2 className="fieldResearchHeader">Design Solution 🎨</h2>
         </div>
 
-        
+
         <div className="col-xl-12 mt-3">
           <p className="fieldResearchBodyCopy"> Using the structure of the user flow, I drew out sketches of the app's main features first on
-          paper. For best approval, I drew multiple sketches of each screen and later based on these sketches made some digital wireframes </p>
+            paper. For best approval, I drew multiple sketches of each screen and later based on these sketches made some digital wireframes </p>
 
         </div>
 
-            <div className="col-12">
+        <div className="col-12">
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Wireframe} />
 
         </div>
 
-          <div className="col-xl-12 mt-3">
+        <div className="col-xl-12 mt-3">
           <p className="fieldResearchBodyCopy"> I made some prototypes and ran two usability testings.
-           The goal was to get feedback on the concept.</p>
+            The goal was to get feedback on the concept.</p>
         </div>
 
-                 <div className="col-12">
+        <div className="col-12">
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Iteration} />
 
         </div>
 
-          <div className="col-6 mt-3 ">
+        <div className="col-6 mt-3 ">
           <h3 >What I Learn:</h3>
 
-                <ul className="fieldResearchList">
+          <ul className="fieldResearchList">
             <li>Users were not able to understand majority of the content in english due to language barrier</li>
-            <li className="mt-2">Feature of “View Cart” seems disconnected. 
-            Most users did not realize the importance of feature </li>
+            <li className="mt-2">Feature of “View Cart” seems disconnected.
+              Most users did not realize the importance of feature </li>
             <li className="mt-2">Users were unable to relate with the images used on the cards. </li>
             <li className="mt-2">Major accessibility issues were spotted by users on CTAs and cards.</li>
-       
+
           </ul>
         </div>
 
-         <div className="col-6 mt-3 ">
+        <div className="col-6 mt-3 ">
           <h3 >According to the feedback:</h3>
 
-                <ul className="fieldResearchList">
+          <ul className="fieldResearchList">
             <li>I introduced Roman Urdu to reduce language barrier</li>
             <li className="mt-2">Added a Cart Icon with  View Cart text to improve the connection </li>
             <li className="mt-2">Instead of images switched to illustrations that could relate to target audience </li>
             <li className="mt-2">Everything was then run under WCAG rules to fix the accessibility issues </li>
-       
+
           </ul>
         </div>
 
-   
 
+        <div className="col-12 mt-3 ">
+          <h3 >HiFi Iteration:</h3>
 
+          <p>I went through a final round of user testing with high fidelity prototypes, and created iteration.
+            The goal was to get feedback on app usability and make sure the visual elements were meeting WCAG standard.
+            Therefore I created the final prototype summing up my testing and findings.
+          </p>
+        </div>
 
 
       </Row>
- 
-     
-
 
     </Container>
 
 
 
 
-
+    <Container>
+      <a id="prototype">
+        <Row>
+          <div className="col-12 mt-3">
+            <h1 className="prototypeHeader">Prototype</h1>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-12 mt-3 mb-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} src="https://xd.adobe.com/embed/13e59caa-3ff1-483c-a3c1-5b93603ff68f-46b6/?fullscreen" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </Row>
+      </a>
+    </Container>
 
 
 
@@ -766,24 +785,9 @@ export const LMD = () => (
       </Row>
     </Container>
 
-    {/* 
-<Container>
-<a id="prototype">
-<Row>
-  <div className="col-12 mt-3">
-  <h1 className="prototypeHeader">Prototype</h1>
-  </div>
-  </Row>
-  <Row>
-    <div className="col-12 mt-3 mb-4">
-    <div class="embed-responsive embed-responsive-16by9">
-    <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTOJbcWV2eEol9YB2iOmawp%2FFurquan-Portfolio%3Fpage-id%3D1%253A169%26node-id%3D360%253A2922%26viewport%3D7830%252C15276%252C0.25%26scaling%3Dscale-down%26starting-point-node-id%3D360%253A2922" allowFullScreen />
-    </div>
-    </div>
-  </Row>
-  </a>
-  </Container>
-    */}
+
+
+
 
     {/* 
   <Container>
