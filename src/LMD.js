@@ -18,6 +18,7 @@ import Flow2 from '../src/Components/Assets/Img/flow2.png';
 import Wireframe from '../src/Components/Assets/Img/Sketch.png';
 import Hifi1 from '../src/Components/Assets/Img/Hifi1.png';
 import Iteration from '../src/Components/Assets/Img/Iterations.PNG'
+import assets from '../src/Components/Assets/Img/assets.png'
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -304,7 +305,7 @@ line-height: 140%;
 
 
 .takeawayJumbotron {
-  background-color: #F7F7F7;
+  background-color: #FFF;
   margin-top: 50px;
 }
 
@@ -401,13 +402,14 @@ export const LMD = () => (
         <div className="col-xl-12">
           <h1 className="tagHeader">Quicker: AssemblyF Capstone Project</h1>
         </div>
+        {/*}
         <div className="col-xl-12">
           <Button className="tagStyling shadow-none" variant="outline-dark">Impact</Button>
           <Button className="tagStyling shadow-none" variant="outline-dark">Background</Button>
           <Button className="tagStyling shadow-none" variant="outline-dark">User Research</Button>
           <Button className="tagStyling shadow-none" variant="outline-dark">Prototype</Button>
 
-        </div>
+        </div> */}
       </Row>
       <hr className="mt-4 solid"></hr>
     </Container>
@@ -424,8 +426,8 @@ export const LMD = () => (
           </p>
           <h5 className="subHeaderListCopy">Impact</h5>
           <ul className="subHeaderListBodyCopy">
-            <li>Concept tested on<b>4 users</b> .</li>
-            <li>Task completion rate upto<b>80%</b>.</li>
+            <li>Concept tested on<b> 4 users</b> .</li>
+            <li>Task completion rate upto<b> 80%</b>.</li>
 
             <li>Concept like by <b>75% tested users</b>.</li>
           </ul>
@@ -768,60 +770,22 @@ export const LMD = () => (
               <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} src="https://xd.adobe.com/embed/13e59caa-3ff1-483c-a3c1-5b93603ff68f-46b6/?fullscreen" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
+
+                 <div className="col-12">
+          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={assets} />
+
+        </div>
         </Row>
       </a>
+
+
     </Container>
-
-
-
-
-
-
-    <Container>
-      <Row>
-        <div className="col-12 mt-5">
-          <h2 className="fieldResearchHeader">Case study construction in Progress 🏗️ </h2>
-        </div>
-      </Row>
-    </Container>
-
-
-
-
-
-    {/* 
-  <Container>
-  <Row>
-    <div className="col-12 mt-5">
-    <h2 className="usabilityHeader">Usability Testing On Prototype</h2>
-    </div>
-    </Row>
-    <Row>
-    <div className="col-xl-6 mb-5 mt-3">
-      <h4 className="usabilitySubHeader">Delivering dummy parcels around London</h4>
-      <p className="usabilityBodyCopy">Before starting the pilot we wanted to make sure porters could use the app and deliver parcels. We ran a usability test, delivering dummy parcels to filter out any immediate UX issues.
-      </p>
-      <h4 className="usabilitySubHeader">Key Findings</h4>
-      <ul className="usabilityList">
-      <li>94% of tasks where complete succesfully, people where able to deliver and collect parcels. </li>
-        <li>Copy of the app can be misleading and confusing to porters.</li>
-        <li>Seeing the embeded map misleads users.</li>
-        
-      </ul>
-    </div>
-    <div className="col-xl-6 mb-5">
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ToAujFEx51c" allowfullscreen></iframe>
-        </div>
-    </div>
-    </Row>
-  </Container>
 
   <Jumbotron className="takeawayJumbotron">
         <Container>
             <Row>
             <div className="col-lg-6 md-12">
-              <h3 className ="takeawayHeaderCopy">Key Challenges Faced</h3>
+              <h3 className ="takeawayHeaderCopy">Reflection as a designer</h3>
               </div>
             </Row>
                 <Row>
@@ -832,12 +796,16 @@ export const LMD = () => (
                 <Row>
                 <div className="col-lg-8 col-12">
                   <ul className="takeawayListStyle">
-                    <li className="takeawayListText mt-2">Routing for the delivery drops was unoptimal and porters had to frequently walk back on themselves.
+                    <li className="takeawayListText mt-2">As a designer, I tried to help lower SEC class understand
+                    the power of ecommerce in real life through the design.
                     </li>
-                    <li className="takeawayListText mt-3">Bag transfers and collections lost a lot of time for porters and van drivers.
+                    <li className="takeawayListText mt-3">The purpose of Quicker is to enable lower SEC class enjoy the power of
+                    digital ecommerce and make their lives better via using smart feature phones.
                     </li>
-                    <li className="takeawayListText mt-3">Adapting the app to have a contact free delivery experience during the pandemic added a few more steps to the delivery flow.
+                    <li className="takeawayListText mt-3">This was my first time working on a KaiOS application and it was really
+                    difficult to design for extremely small screen.
                     </li>
+                    
                   </ul>
                 </div>
                 </Row> 
@@ -846,6 +814,26 @@ export const LMD = () => (
 
 
 
+
+
+ 
+
+
+
+
+  
+
+
+  {/* 
+
+    <Container>
+      <Row>
+        <div className="col-12 mt-5">
+          <h2 className="fieldResearchHeader">Case study construction in Progress 🏗️ </h2>
+        </div>
+      </Row>
+    </Container>
+ 
         <Container>
         <a id="pandemic">
         <Row>
@@ -897,7 +885,9 @@ export const LMD = () => (
   
 
  {/* 
-    <Jumbotron className="nextProjectHeader">
+   
+
+   <Jumbotron className="nextProjectHeader">
       <Container>
         <Row>
 
@@ -920,7 +910,7 @@ export const LMD = () => (
       </Container>
     </Jumbotron>
 
-  */}
 
+  */}
   </Styles>
 )
