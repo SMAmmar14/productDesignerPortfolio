@@ -478,7 +478,7 @@ export const LMD = () => (
 
       <Row>
         <div className="col-12 mt-5">
-          <h2 className="fieldResearchHeader">Quicker Background 📒</h2>
+          <h2 className="fieldResearchHeader">Quicker Background </h2>
         </div>
       </Row>
       <Row>
@@ -514,7 +514,7 @@ export const LMD = () => (
 
       <Row>
         <div className="col-12 mt-5 ">
-          <h2 className="fieldResearchHeader">The Research 📜</h2>
+          <h2 className="fieldResearchHeader">The Research </h2>
         </div>
 
 
@@ -536,7 +536,7 @@ export const LMD = () => (
 
       <Row>
         <div >
-          <h2 className="fieldResearchHeader">Primary Research 🕵️</h2>
+          <h2 className="fieldResearchHeader">Primary Research </h2>
         </div>
       </Row>
       <Row>
@@ -572,7 +572,7 @@ export const LMD = () => (
 
       <Row>
         <div className="col-12 mt-5 ">
-          <h2 className="fieldResearchHeader">User Persona 👨</h2>
+          <h2 className="fieldResearchHeader">User Persona </h2>
         </div>
 
 
@@ -600,7 +600,7 @@ export const LMD = () => (
     <Container >
       <Row>
         <div className="col-12 mt-5">
-          <h2 className="fieldResearchHeader">Reframed Design Question ❓</h2>
+          <h2 className="fieldResearchHeader">Reframed Design Question </h2>
         </div>
       </Row>
       <Row>
@@ -627,7 +627,7 @@ export const LMD = () => (
 
       <Row>
         <div >
-          <h2 className="fieldResearchHeader">Ideation 💡 </h2>
+          <h2 className="fieldResearchHeader">Ideation </h2>
         </div>
       </Row>
       <Row>
@@ -659,7 +659,7 @@ export const LMD = () => (
 
       <Row>
         <div className="col-12 mt-5 ">
-          <h2 className="fieldResearchHeader">User Flow 🧶</h2>
+          <h2 className="fieldResearchHeader">User Flow </h2>
         </div>
 
 
@@ -689,7 +689,7 @@ export const LMD = () => (
 
       <Row>
         <div className="col-12 mt-5 ">
-          <h2 className="fieldResearchHeader">Design Solution 🎨</h2>
+          <h2 className="fieldResearchHeader">Design Solution </h2>
         </div>
 
 
