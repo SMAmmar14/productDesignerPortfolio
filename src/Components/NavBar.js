@@ -87,7 +87,7 @@ export const NavigationBar = () => (
             LinkedIn
            </Nav.Link>
 
-              <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/syed-mohammad-ammar-053877145/">
+              <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://dribbble.com/SMAmmar14">
             Dribble
            </Nav.Link>
 
