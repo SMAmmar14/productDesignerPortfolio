@@ -13,7 +13,7 @@ import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png';
 import LMDPersona from '../src/Components/Assets/Img/userpersona.jpeg';
 import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png';
 import Matrix from '../src/Components/Assets/Img/matrix.png';
-import Flow1 from '../src/Components/Assets/Img/flow1.png';
+import Flow1 from '../src/Components/Assets/Img/UserFlow.png';
 import Flow2 from '../src/Components/Assets/Img/flow2.png';
 import Wireframe from '../src/Components/Assets/Img/Sketch.png';
 import Hifi1 from '../src/Components/Assets/Img/Hifi1.png';
@@ -672,7 +672,6 @@ export const LMD = () => (
 
         <div className="col-12">
           <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow1} />
-          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow2} />
 
         </div>
       </Row>
