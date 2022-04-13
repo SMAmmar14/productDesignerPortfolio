@@ -9,7 +9,7 @@ import {FordPassPro} from './FordPassPro';
 import { NavigationBar } from './Components/NavBar';
 import {Footer} from './Components/Footer';
 import ScrollToTop from './Components/ScrollToTop';
-import {LMD} from './LMD';
+import {LMD} from './Quicker.js';
 
 
 
