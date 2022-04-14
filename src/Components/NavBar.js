@@ -78,7 +78,7 @@ export const NavigationBar = () => (
           <Nav.Link className="hvr-underline-from-left mr-4">Portfolio</Nav.Link>
           </LinkContainer>
 
-            <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1NyDxyLLQ2BkDDH9UGDRgPHI76dq78KNa/view?usp=sharing">
+            <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1aHWUim-XtevDZqe9y1h0HDfVgltD0U2Y/view?usp=sharing">
              Resume
             </Nav.Link>
           
