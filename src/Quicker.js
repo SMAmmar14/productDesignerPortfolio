@@ -10,7 +10,7 @@ import DeliveryResults from '../src/Components/Assets/Img/DeliveryResults.gif';
 import DeliveriesPerHour from '../src/Components/Assets/Img/DeliveriesPerHour.gif';
 import LMDHeader from '../src/Components/Assets/Img/coverphoto.png';
 import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png';
-import LMDPersona from '../src/Components/Assets/Img/userpersona.jpeg';
+import LMDPersona from '../src/Components/Assets/Img/Persona.png';
 import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png';
 import Matrix from '../src/Components/Assets/Img/matrix.png';
 import Flow1 from '../src/Components/Assets/Img/UserFlow.png';
