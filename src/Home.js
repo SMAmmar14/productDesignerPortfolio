@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import {BigCard} from './Components/BigCard';
+import { BigCard } from './Components/BigCard';
 import fordPass from '../src/Components/Assets/Img/Fordpass.jpg';
 import FordPassCoPilot from '../src/Components/Assets/Img/FordPassCoPilot.jpg';
 import FPPCover from '../src/Components/Assets/Img/FPPCover.jpg';
@@ -15,8 +15,8 @@ import rsa from '../src/Components/Assets/Img/RSA.jpg';
 import Journeys from '../src/Components/Assets/Img/Journeys.jpg';
 import LMD from '../src/Components/Assets/Img/Quicker.png';
 import LMDLogo from '../src/Components/Assets/Img/assemblyf.jpg';
-import FPPBuilder from  '../src/Components/Assets/Img/FPPBuilder.jpg';
-import {NewsletterFooter} from './Components/NewsletterFooter';
+import FPPBuilder from '../src/Components/Assets/Img/FPPBuilder.jpg';
+import { NewsletterFooter } from './Components/NewsletterFooter';
 import { hotjar } from 'react-hotjar';
 import './App.css';
 
@@ -83,32 +83,32 @@ const Styles = styled.div`
 
 export const Home = () => (
 
-<Styles>
+  <Styles>
 
-<Container className="align-content-center">
-<div className = "headerSpacing"/>
- <Row>  
-   <Col>
-    <h1 className="headerStyling mb-2">
-    I’m a digital product designer, inspired by accessibility, culture and community.
-    </h1>
-    </Col>
- </Row>
+    <Container className="align-content-center">
+      <div className="headerSpacing" />
+      <Row>
+        <Col>
+          <h1 className="headerStyling mb-2">
+            I'm Syed Mohammad Ammar  a digital product & a visual designer excited about
+            high impact, driven teams and great culture.    </h1>
+        </Col>
+      </Row>
 
- <Row> 
-  <Col className ="mt-5">
-  <BigCard 
-    imgProjectLogo={LMDLogo}
-    imgCardLarge={LMD}
-    cardTitleName = {"Quicker a AssemblyF Capstone Project"}
-    cardBodyText = {"Quicker is an KaiOS smart feature phone mobile phone application. It aims to connect the lower SEC class of Pakistan to digital economy easily.  "}
-    cardLink = {"/LMD"}
-   />
-   </Col>
- </Row>
- 
+      <Row>
+        <Col className="mt-5">
+          <BigCard
+            imgProjectLogo={LMDLogo}
+            imgCardLarge={LMD}
+            cardTitleName={"Quicker a AssemblyF Capstone Project"}
+            cardBodyText={"Quicker is an KaiOS smart feature phone mobile phone application. It aims to connect the lower SEC class of Pakistan to digital economy easily.  "}
+            cardLink={"/LMD"}
+          />
+        </Col>
+      </Row>
 
- {/*
+
+      {/*
  <Row> 
   <Col>
   <BigCard 
@@ -121,8 +121,8 @@ export const Home = () => (
    </Col>
  </Row> */}
 
- 
- {/*
+
+      {/*
  <Row> 
   <Col>
   <BigCard 
@@ -135,7 +135,7 @@ export const Home = () => (
    </Col>
  </Row>*/}
 
-{/*
+      {/*
  <Row> 
   <Col>
     <BigCard 
@@ -151,33 +151,33 @@ export const Home = () => (
  */}
 
 
-</Container>
+    </Container>
 
-   <Jumbotron className="contactJumbotron">
-        <Container>
-            <Row>
-            
-            <div className="col-lg-6 md-12">
-              <h3 className ="contactHeader">Say hello.</h3>
-              </div>
-            </Row>
-                <Row>
-                  <div className="col-lg-4 col-md-4">
-                     <hr className="contactLine mt-2 mb-4"></hr>
-                  </div>
-                </Row>
-                <Row>
-                <div className="col-lg-6 col-12">
-                    <p className="contactText">I'm always interested in new ideas, opportunities or hearing what you're working on, so drop a message and say hello.</p>
-                </div>
-                </Row> 
-                <Row>
-                <div className="col-lg-6 col-12">
-                    <Button href="mailto:syed.m.ammar@hotmail.com" className = "buttonStyling" variant="outline-light">Say hello</Button>
-                </div>
-                </Row>
-        </Container>
-        </Jumbotron>
-</Styles>
+    <Jumbotron className="contactJumbotron">
+      <Container>
+        <Row>
+
+          <div className="col-lg-6 md-12">
+            <h3 className="contactHeader">Say hello.</h3>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-lg-4 col-md-4">
+            <hr className="contactLine mt-2 mb-4"></hr>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-lg-6 col-12">
+            <p className="contactText">I'm always interested in new ideas, opportunities or hearing what you're working on, so drop a message and say hello.</p>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-lg-6 col-12">
+            <Button href="mailto:syed.m.ammar@hotmail.com" className="buttonStyling" variant="outline-light">Say hello</Button>
+          </div>
+        </Row>
+      </Container>
+    </Jumbotron>
+  </Styles>
 
 )
