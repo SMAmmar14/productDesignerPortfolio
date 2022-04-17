@@ -429,7 +429,7 @@ export const LMD = () => (
             <li>Concept tested on<b> 4 users</b> .</li>
             <li>Task completion rate upto<b> 80%</b>.</li>
 
-            <li>Concept like by <b>75% tested users</b>.</li>
+            <li>Concept liked by <b>75% tested users</b>.</li>
           </ul>
         </div>
         <div className="offset-xl-1 col-xl-6 col-md-7 col-sm-12 col-xs-12">
