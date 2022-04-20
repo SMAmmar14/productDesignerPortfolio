@@ -775,8 +775,6 @@ export const LMD = () => (
             <li>Users were unable to understand majority of the content because it was in english and there was a major
               language barrier
             </li>
-            <li className="mt-2">Feature of “View Cart” seems disconnected.
-              Most users did not realize the importance of feature </li>
             <li className="mt-2">Users were unable to relate with the images used on the cards. </li>
             <li className="mt-2">Major accessibility issues were spotted by users on CTAs and cards.</li>
 
