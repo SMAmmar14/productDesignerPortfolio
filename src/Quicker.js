@@ -786,7 +786,6 @@ export const LMD = () => (
 
           <ul className="fieldResearchList">
             <li>I introduced Roman Urdu to reduce language barrier</li>
-            <li className="mt-2">Added a Cart Icon with  View Cart text to improve the connection </li>
             <li className="mt-2">Instead of images switched to illustrations that could relate to target audience </li>
             <li className="mt-2">Everything was then run under WCAG rules to fix the accessibility issues </li>
 
