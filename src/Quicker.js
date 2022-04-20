@@ -499,10 +499,8 @@ export const LMD = () => (
           <div className="col-md-5">
             <h3 className="myRoleHeaderCopy">My Role</h3>
             <div className="myRoleBodyCopy">
-              <p>
-                It was a capstone project given to me by the AssemblyF team.
-              </p>
-              <p>I was responsible for designing the app, realising the vision and validating the feasibility of the concept.</p>
+             
+              <p>I as a product designer  was responsible for designing the app, realizing the vision and validating the feasibility of the concept.</p>
             </div>
           </div>
           <div className="offset-md-2 col-md-5">
