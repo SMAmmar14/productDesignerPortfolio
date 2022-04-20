@@ -772,7 +772,9 @@ export const LMD = () => (
           <h3 >What I Learn:</h3>
 
           <ul className="fieldResearchList">
-            <li>Users were not able to understand majority of the content in english due to language barrier</li>
+            <li>Users were unable to understand majority of the content because it was in english and there was a major
+              language barrier
+            </li>
             <li className="mt-2">Feature of “View Cart” seems disconnected.
               Most users did not realize the importance of feature </li>
             <li className="mt-2">Users were unable to relate with the images used on the cards. </li>
