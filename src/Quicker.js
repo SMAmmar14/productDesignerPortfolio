@@ -126,6 +126,15 @@ const Styles = styled.div`
 
 }
 
+.subHeaderListBodyCopyExtra {
+ font-family: Open Sans, sans-serif;
+  font-size: 0.95rem;
+  color: black;
+  list-style-type: none;
+  line-height: 1.6rem;
+  padding-left: 0px;
+}
+
 .bodyCopy {
   font-family: Open Sans, sans-serif;
   font-size: 1.06rem;
@@ -435,6 +444,50 @@ export const LMD = () => (
         <div className="offset-xl-1 col-xl-6 col-md-7 col-sm-12 col-xs-12">
           <img className="projectPicture" alt="roadside assistance app" src={LMDCover} />
         </div>
+      </Row>
+
+      <Row>
+
+        <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Duration</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>12 Weeks</li>
+            <li>Oct 2021 - Dec 2021</li>
+
+
+          </ul>
+        </div>
+
+        <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Project Type</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>AssemblyF capstone project supervised by Senior UX Researcher Creditbook</li>
+
+
+          </ul>
+        </div>
+
+        <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Tools Used</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>Google Docs</li>
+            <li>Figma</li>
+            <li>Figjam</li>
+
+
+          </ul>
+        </div>
+
+         <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Team</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>Capstone Project</li>
+         
+
+
+          </ul>
+        </div>
+
       </Row>
     </Container>
 
@@ -770,60 +823,60 @@ export const LMD = () => (
             </div>
           </div>
 
-                 <div className="col-12">
-          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={assets} />
+          <div className="col-12">
+            <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={assets} />
 
-        </div>
+          </div>
         </Row>
       </a>
 
 
     </Container>
 
-  <Jumbotron className="takeawayJumbotron">
-        <Container>
-            <Row>
-            <div className="col-lg-6 md-12">
-              <h3 className ="takeawayHeaderCopy">Reflection as a designer</h3>
-              </div>
-            </Row>
-                <Row>
-                  <div className="col-lg-4 col-md-4">
-                     <hr className="takeawayLine mt-2 mb-4"></hr>
-                  </div>
-                </Row>
-                <Row>
-                <div className="col-lg-8 col-12">
-                  <ul className="takeawayListStyle">
-                    <li className="takeawayListText mt-2">As a designer, I tried to help lower SEC class understand
-                    the power of ecommerce in real life through the design.
-                    </li>
-                    <li className="takeawayListText mt-3">The purpose of Quicker is to enable lower SEC class enjoy the power of
-                    digital ecommerce and make their lives better via using smart feature phones.
-                    </li>
-                    <li className="takeawayListText mt-3">This was my first time working on a KaiOS application and it was really
-                    difficult to design for extremely small screen.
-                    </li>
-                    
-                  </ul>
-                </div>
-                </Row> 
-        </Container>
-        </Jumbotron>
+    <Jumbotron className="takeawayJumbotron">
+      <Container>
+        <Row>
+          <div className="col-lg-6 md-12">
+            <h3 className="takeawayHeaderCopy">Reflection as a designer</h3>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-lg-4 col-md-4">
+            <hr className="takeawayLine mt-2 mb-4"></hr>
+          </div>
+        </Row>
+        <Row>
+          <div className="col-lg-8 col-12">
+            <ul className="takeawayListStyle">
+              <li className="takeawayListText mt-2">As a designer, I tried to help lower SEC class understand
+                the power of ecommerce in real life through the design.
+              </li>
+              <li className="takeawayListText mt-3">The purpose of Quicker is to enable lower SEC class enjoy the power of
+                digital ecommerce and make their lives better via using smart feature phones.
+              </li>
+              <li className="takeawayListText mt-3">This was my first time working on a KaiOS application and it was really
+                difficult to design for extremely small screen.
+              </li>
+
+            </ul>
+          </div>
+        </Row>
+      </Container>
+    </Jumbotron>
 
 
 
 
 
- 
 
 
 
 
-  
 
 
-  {/* 
+
+
+    {/* 
 
     <Container>
       <Row>
