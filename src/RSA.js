@@ -415,7 +415,7 @@ export const RSA = () => (
         <div className="col-xl-12">
           <h1 className="tagHeader">Cake Affiliate</h1>
         </div>
-          {/* 
+        {/* 
         <div className="col-xl-12">
           <Button href="#impact" className="tagStyling shadow-none" variant="outline-dark">Impact</Button>
           <Button href="#wireframes" className="tagStyling shadow-none" variant="outline-dark">Wireframes</Button>
@@ -425,6 +425,57 @@ export const RSA = () => (
 
         </div>
         */}
+      </Row>
+
+      <Row>
+
+        <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Duration</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>12 Weeks</li>
+            <li>Sep 2021 - Nov 2021</li>
+
+
+          </ul>
+        </div>
+
+        <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Project Type</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>End-to-end product design project for CAKE affiliates</li>
+
+
+          </ul>
+        </div>
+
+        <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Tools Used</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>Google Docs</li>
+            <li>Figma</li>
+            <li>Figjam</li>
+            <li>Notion</li>
+
+
+          </ul>
+        </div>
+
+        <div className='col-md-3 col-xl-3 mb-3'>
+          <h3 className='subHeaderCopy'>Team</h3>
+          <ul className="subHeaderListBodyCopyExtra" >
+            <li>1x Project Manager</li>
+            <li>1x UI/UX Designer</li>
+            <li>1x QA Engineer</li>
+            <li>1x iOS Mobile Developer</li>
+
+
+
+
+
+
+          </ul>
+        </div>
+
       </Row>
       <hr className="mt-4 solid"></hr>
     </Container>
@@ -484,11 +535,11 @@ export const RSA = () => (
       </Container>
     </Jumbotron>
 
-<Container>
-            <h1 className="tagHeader">Case study in construction</h1>
+    <Container>
+      <h1 className="tagHeader">Case study in construction</h1>
 
-</Container>
-  {/* 
+    </Container>
+    {/* 
     <Container>
       <a id="research">
         <Row className="mb-5">
