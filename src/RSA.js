@@ -437,7 +437,35 @@ export const RSA = () => (
         */}
       </Row>
 
-      <Row>
+    
+      <hr className="mt-4 solid"></hr>
+    </Container>
+
+    <Container>
+      <Row className="mt-5">
+        <div className="col-md-5 col-xl-6 mb-5">
+          <h3 className="headerCopy">Project Overview</h3>
+          <h5 className="mt-4 subHeaderCopy">Problem</h5>
+          <p className="bodyCopy mb-4">Our team's goal was to bring together in a single platform all
+            the necessary tools for obtaining, managing, and analyzing campaigns generated through affiliate marketing.
+          </p>
+          <h5 className="subHeaderCopy"> Solution</h5>
+          <p className="bodyCopy mb-4"> We developed an MVP version of CAKE iOS mobile application that helps businesses manage the entire affiliate marketing experience at finger tips. We introduced ability to view reports, create campaigns and fire pixels.
+            The platform is very intuitive and easy-to-use.  </p>
+          <h5 className="subHeaderCopy">Impact</h5>
+          <ul className="subHeaderListBodyCopy">
+            <li>FordPass is being used globally by over <b>100+ businesses</b>.</li>
+            <li>businesses satisfaction for campaign creation increased by <b>120 %</b>.</li>
+            <li>Affiliates satisfaction increased by <b>160 %</b>.</li>
+
+          </ul>
+        </div>
+        <div className="offset-xl-1 col-xl-5 col-md-7 col-sm-12 col-xs-12">
+          <img className="projectPicture" alt="roadside assistance app" src={RSAGif} />
+        </div>
+      </Row>
+
+  <Row>
 
         <div className='col-md-3 col-xl-3 mb-3'>
           <h3 className='subHeaderCopy'>Duration</h3>
@@ -487,32 +515,7 @@ export const RSA = () => (
         </div>
 
       </Row>
-      <hr className="mt-4 solid"></hr>
-    </Container>
 
-    <Container>
-      <Row className="mt-5">
-        <div className="col-md-5 col-xl-6 mb-5">
-          <h3 className="headerCopy">Project Overview</h3>
-          <h5 className="mt-4 subHeaderCopy">Problem</h5>
-          <p className="bodyCopy mb-4">Our team's goal was to bring together in a single platform all
-            the necessary tools for obtaining, managing, and analyzing campaigns generated through affiliate marketing.
-          </p>
-          <h5 className="subHeaderCopy"> Solution</h5>
-          <p className="bodyCopy mb-4"> We developed an MVP version of CAKE iOS mobile application that helps businesses manage the entire affiliate marketing experience at finger tips. We introduced ability to view reports, create campaigns and fire pixels.
-            The platform is very intuitive and easy-to-use.  </p>
-          <h5 className="subHeaderCopy">Impact</h5>
-          <ul className="subHeaderListBodyCopy">
-            <li>FordPass is being used globally by over <b>100+ businesses</b>.</li>
-            <li>businesses satisfaction for campaign creation increased by <b>120 %</b>.</li>
-            <li>Affiliates satisfaction increased by <b>160 %</b>.</li>
-
-          </ul>
-        </div>
-        <div className="offset-xl-1 col-xl-5 col-md-7 col-sm-12 col-xs-12">
-          <img className="projectPicture" alt="roadside assistance app" src={RSAGif} />
-        </div>
-      </Row>
     </Container>
 
     <Jumbotron className="myRoleHeader">
