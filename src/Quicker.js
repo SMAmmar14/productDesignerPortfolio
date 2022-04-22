@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import LMDCover from '../src/Components/Assets/Img/Quicker.png';
-import Graph1 from '../src/Components/Assets/Img/backgroundImage.PNG';
+import Graph1 from '../src/Components/Assets/Img/graph.png';
 import iPhoneCamera from '../src/Components/Assets/Img/iPhoneCamera.jpg';
 import DeliveryResults from '../src/Components/Assets/Img/DeliveryResults.gif';
 import DeliveriesPerHour from '../src/Components/Assets/Img/DeliveriesPerHour.gif';
@@ -207,7 +207,7 @@ line-height: 140%;
   
   .metricPicture {
     max-width: 100%;
-    max-height: 300px;
+   
   }
 
 .fieldResearchHeader {
@@ -548,7 +548,7 @@ export const LMD = () => (
             <li className="mt-2">Smartphones are expensive. Data plans cost too much. The lack of digital skills and relevant apps makes them stay rather with a low cost basic phone.</li>
           </ul>
         </div>
-        <div className="col-xl-6 mt-5 mb-5">
+        <div className="col-xl-6 mt-2 mb-2">
           <img className="metricPicture" alt="LMD metrics for success" src={Graph1} />
         </div>
       </Row>
@@ -689,6 +689,8 @@ export const LMD = () => (
         <div className="col-xl-6 mb-5 mt-3">
           <p className="fieldResearchBodyCopy">The idea behind this design was to build a experience
             that makes the online shopping more accessible, and more interactive to the lower SEC class.
+            Therefore I reached out to two users and asked them to vote the best idea. By using priority 
+            matrix I was able to finalize the idea.
           </p>
 
 
@@ -719,8 +721,8 @@ export const LMD = () => (
 
 
         <div className="col-xl-12 mt-3">
-          <p className="fieldResearchBodyCopy">  After completing my interviews and gathering key insights. I created three user personas and then consolidated
-            into one which helped me to better understand who are my target users and allowed me to empathize with them while
+          <p className="fieldResearchBodyCopy">  I created some key user flow maps in order to evaluate and optimize the user experience of 
+          purchasing an item, and tracking a order. 
             designing. </p>
 
         </div>

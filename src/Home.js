@@ -6,10 +6,10 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { BigCard } from './Components/BigCard';
-import fordPass from '../src/Components/Assets/Img/Fordpass.jpg';
+import fordPass from '../src/Components/Assets/Img/cakehome.png';
 import FordPassCoPilot from '../src/Components/Assets/Img/FordPassCoPilot.jpg';
 import FPPCover from '../src/Components/Assets/Img/FPPCover.jpg';
-import fordLogo from '../src/Components/Assets/Img/FordLogo.svg';
+import fordLogo from '../src/Components/Assets/Img/CAKELogo.png';
 import FPPLogo from '../src/Components/Assets/Img/FPPLogo.svg';
 import rsa from '../src/Components/Assets/Img/RSA.jpg';
 import Journeys from '../src/Components/Assets/Img/Journeys.jpg';
@@ -100,7 +100,7 @@ export const Home = () => (
           <BigCard
             imgProjectLogo={LMDLogo}
             imgCardLarge={LMD}
-            cardTitleName={"Quicker a AssemblyF Capstone Project"}
+            cardTitleName={"Creating a ecommerce application for smart feature phones"}
             cardBodyText={"Quicker is an KaiOS smart feature phone mobile phone application. It aims to connect the lower SEC class of Pakistan to digital economy easily.  "}
             cardLink={"/LMD"}
           />
@@ -108,18 +108,18 @@ export const Home = () => (
       </Row>
 
 
-      {/*
+      
  <Row> 
   <Col>
   <BigCard 
     imgProjectLogo={fordLogo}
     imgCardLarge={fordPass}
-    cardTitleName = {"Designing a smart, live, digital breakdown experience."}
-    cardBodyText = {"When you break down in your vehicle, your left in the cold about  what's going on. We changed this static experience to be completely digital for over 9 million FordPass users, in the Digital RSA project."}
+    cardTitleName = {"Designing a smart, digital affiliate marketing experience."}
+    cardBodyText = {"In order to accommodate the busy, on-the-go lifestyles of our affiliate partners. CAKE iOS app allows users to manage their business in real-time, automate and prioritize existing offers, launch new offers"}
     cardLink = {"/RSA"}
     />
    </Col>
- </Row> */}
+ </Row> 
 
 
       {/*
