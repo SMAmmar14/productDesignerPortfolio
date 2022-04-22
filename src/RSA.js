@@ -226,6 +226,16 @@ const Styles = styled.div`
     padding-left: 15px;
   }
 
+  
+.subHeaderListBodyCopyExtra {
+ font-family: Open Sans, sans-serif;
+  font-size: 0.95rem;
+  color: black;
+  list-style-type: none;
+  line-height: 1.6rem;
+  padding-left: 0px;
+}
+
   .bodyCopy {
     font-family: Open Sans, sans-serif;
     font-size: 1.06rem;
