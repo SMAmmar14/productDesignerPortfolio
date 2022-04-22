@@ -454,8 +454,8 @@ export const RSA = () => (
             The platform is very intuitive and easy-to-use.  </p>
           <h5 className="subHeaderCopy">Impact</h5>
           <ul className="subHeaderListBodyCopy">
-            <li>FordPass is being used globally by over <b>100+ businesses</b>.</li>
-            <li>businesses satisfaction for campaign creation increased by <b>120 %</b>.</li>
+            <li>CAKE Affiliate is being used globally by over <b>100+ businesses</b>.</li>
+            <li>Businesses satisfaction for campaign creation increased by <b>120 %</b>.</li>
             <li>Affiliates satisfaction increased by <b>160 %</b>.</li>
 
           </ul>
