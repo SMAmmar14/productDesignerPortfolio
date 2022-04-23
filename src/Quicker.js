@@ -435,10 +435,10 @@ export const LMD = () => (
           </p>
           <h5 className="subHeaderListCopy">Impact</h5>
           <ul className="subHeaderListBodyCopy">
-            <li>Concept tested on<b> 4 users</b> .</li>
-            <li>Task completion rate upto<b> 80%</b>.</li>
+            <li>Concept tested on<b> 4 users</b> </li>
+            <li>Task completion rate upto<b> 80%</b></li>
 
-            <li>Concept liked by <b>75% tested users</b>.</li>
+            <li>Concept liked by <b>75% tested users</b></li>
           </ul>
         </div>
         <div className="offset-xl-1 col-xl-6 col-md-7 col-sm-12 col-xs-12">
@@ -537,14 +537,14 @@ export const LMD = () => (
           <p className="fieldResearchBodyCopy">Pakistan is an emerging mobile economy, with digital technologies beginning to transform the way people live and
             work. For a growing number of citizens, digital platforms have become the primary channel for accessing public
             and private services. However, Pakistan
-            still has a sizeable ‘coverage gap’ and lags behind peers in certain areas; for example, mobile broadband6 accounts
+            still has a sizeable ‘coverage gap’ and lags behind peers in certain areas; for example, mobile broadbands accounts
             for less than five in 10 mobile connections. Pakistan also scored 39.8 in the GSMA’s latest Mobile Connectivity
             Index, compared to an average of 45.7 for South Asia.   </p>
 
           <h4 className="fieldResearchSubHeader mt-2">Key Insights:</h4>
           <ul className="fieldResearchList">
-            <li>More than 50% of the populations does not own smartphones.</li>
-            <li className="mt-2">Only 30% Pakistan's populations is exposed to the power of mobile internet.</li>
+            <li>More than 50% of the population does not own smartphones.</li>
+            <li className="mt-2">Only 30% Pakistan's population is exposed to the power of mobile internet.</li>
             <li className="mt-2">Smartphones are expensive. Data plans cost too much. The lack of digital skills and relevant apps makes them stay rather with a low cost basic phone.</li>
           </ul>
         </div>
