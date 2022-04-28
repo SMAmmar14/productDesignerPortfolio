@@ -437,7 +437,7 @@ export const RSA = () => (
         */}
       </Row>
 
-    
+
       <hr className="mt-4 solid"></hr>
     </Container>
 
@@ -454,9 +454,10 @@ export const RSA = () => (
             The platform is very intuitive and easy-to-use.  </p>
           <h5 className="subHeaderCopy">Impact</h5>
           <ul className="subHeaderListBodyCopy">
-            <li>CAKE Affiliate is being used globally by over <b>100+ businesses</b>.</li>
-            <li>Businesses satisfaction for campaign creation increased by <b>120 %</b>.</li>
-            <li>Affiliates satisfaction increased by <b>160 %</b>.</li>
+            <li>CAKE Affiliate is being used globally by over <b>100+ B2B clients</b>.</li>
+            <li>Increased affiliates task completion rate by <b>60%</b>.</li>
+            <li>Scaled the amount of affiliates campaign creation by <b>5x</b>.</li>
+
 
           </ul>
         </div>
@@ -465,7 +466,7 @@ export const RSA = () => (
         </div>
       </Row>
 
-  <Row>
+      <Row>
 
         <div className='col-md-3 col-xl-3 mb-3'>
           <h3 className='subHeaderCopy'>Duration</h3>
