@@ -549,11 +549,8 @@ export const RSA = () => (
       </Container>
     </Jumbotron>
 
-    <Container>
-      <h1 className="tagHeader">Case study in construction</h1>
-
-    </Container>
-    {/* 
+  
+    
     <Container>
       <a id="research">
         <Row className="mb-5">
@@ -562,17 +559,25 @@ export const RSA = () => (
           </div>
           <div className="col-lg-5 col-xl-5">
             <h3 className="headerCopy mb-3">User Research Insights</h3>
-            <p className="researchCopy mb-4">I conducted user interviews with vehicle owners in the UK and Germany to understand customer pain points and goals.</p>
+            <p className="researchCopy mb-4">I conducted user interviews with affiliates customers in the USA and Canada remotely to understand customer pain points and goals.</p>
             <h5>Key Insights</h5>
             <ul className="researchListCopy">
-              <li className="mb-3">Customers find the breakdown experience "frustrating" due to a lack of communication, transparency and understanding of what's hapenning.</li>
-              <li className="mb-3">Customers want to make sure they can get back on the road as quick as possible.</li>
-              <li className="mb-3">Safety is really important for customers  just like Maslow's Hierarchy Of Needs.  </li>
+              <li className="mb-3">Customers revealed that in order to view the status of their reports they have to switch to a desktop machine and then use CAKE portal.
+              They all thought it was tiring to just do so much effort to view reports.</li>
+              <li className="mb-3">Customers were looking for a way to create campaigns quickly so that they can generate more leads.</li>
+              <li className="mb-3">All the customers that I interviewed were of the opinion that CAKE should launch an application that 
+              covers the basic affiliates requirements. They were even willing to pay premium, thus resulting in a new revenue stream.  </li>
             </ul>
           </div>
         </Row>
       </a>
 
+      <Row>
+              <h1 className="tagHeader">Case study in construction</h1>
+
+      </Row>
+
+ {/*
       <Row>
         <div className="col">
           <h3 className="mt-3 headerCopy mb-3">Mapping the UX Flow</h3>
@@ -597,6 +602,7 @@ export const RSA = () => (
           </div>
         </div>
       </Row>
+
 
       <Row>
         <div className="col">
@@ -736,7 +742,10 @@ export const RSA = () => (
           </div>
         </Row>
       </a>
+      */}
     </Container>
+
+ {/*
 
     <Jumbotron className="takeawayJumbotron">
       <Container>
@@ -789,7 +798,7 @@ export const RSA = () => (
       </Container>
     </Jumbotron>
 
-*/}
+  */}
 
   </Styles>
 

@@ -428,8 +428,11 @@ export const LMD = () => (
         <div className="col-md-5 col-xl-5 mb-5">
           <h3 className="headerCopy">Project Overview</h3>
           <h5 className="mt-4 subHeaderCopy">Problem</h5>
-          <p className="bodyCopy mb-4">More than 50% of the population in Pakistan does not use smartphones. The lower SEC class needs a way to connect with digital ecosystem without using smartphones.
-          </p>
+          <p className="bodyCopy mb-4">With a boom in digitization during the pandemic, and high
+
+internet penetration there's still a high volume of cash payments.
+
+  Understand and design solutions for individuals in the lower social-economic class using feature phones (not smartphones), that will enable them to connect with the digital ecosystem. </p>
           <h5 className="subHeaderCopy"> Solution</h5>
           <p className="bodyCopy mb-4">The goal of the project was to design a KaiOS mobile feature phone application that allows the lower SEC class to order goods online without using smartphones.
           </p>
