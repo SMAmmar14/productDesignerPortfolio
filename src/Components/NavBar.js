@@ -88,7 +88,7 @@ export const NavigationBar = () => (
            </Nav.Link>
 
               <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://dribbble.com/SMAmmar14">
-            Dribble
+            Dribbble
            </Nav.Link>
 
          
