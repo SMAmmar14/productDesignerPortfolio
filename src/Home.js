@@ -108,7 +108,7 @@ export const Home = () => (
       </Row>
 
 
-      
+      {/*     
  <Row> 
   <Col>
   <BigCard 
@@ -121,6 +121,18 @@ export const Home = () => (
    </Col>
  </Row> 
 
+  <Row> 
+  <Col>
+  <BigCard 
+    imgProjectLogo={fordLogo}
+    imgCardLarge={fordPass}
+    cardTitleName = {"Designing a smart, digital affiliate marketing experience."}
+    cardBodyText = {"In order to accommodate the busy, on-the-go lifestyles of our affiliate partners. CAKE iOS app allows users to manage their business in real-time, automate and prioritize existing offers, launch new offers"}
+    cardLink = {"/Peerdrop"}
+    />
+   </Col>
+ </Row> 
+ */}
 
       {/*
  <Row> 
