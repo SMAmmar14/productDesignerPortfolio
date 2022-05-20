@@ -409,7 +409,7 @@ export const LMD = () => (
     <Container>
       <Row>
         <div className="col-xl-12">
-          <h1 className="tagHeader">Quicker: AssemblyF Capstone Project</h1>
+          <h1 className="tagHeader">Quicker: Connecting lower social economic class with the digital ecosystem through feature phones</h1>
         </div>
         {/*}
         <div className="col-xl-12">

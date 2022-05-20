@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { BigCard } from './Components/BigCard';
-import fordPass from '../src/Components/Assets/Img/cakehome.png';
+import fordPass from '../src/Components/Assets/Img/PDcover.png';
 import FordPassCoPilot from '../src/Components/Assets/Img/FordPassCoPilot.jpg';
 import FPPCover from '../src/Components/Assets/Img/FPPCover.jpg';
 import fordLogo from '../src/Components/Assets/Img/CAKELogo.png';
@@ -100,13 +100,24 @@ export const Home = () => (
           <BigCard
             imgProjectLogo={LMDLogo}
             imgCardLarge={LMD}
-            cardTitleName={"Creating a ecommerce application for smart feature phones"}
+            cardTitleName={"Connecting lower social economic class with the digital ecosystem through feature phones"}
             cardBodyText={"Quicker is an KaiOS smart feature phone mobile phone application. It aims to connect the lower SEC class of Pakistan to digital economy easily.  "}
             cardLink={"/LMD"}
           />
         </Col>
       </Row>
 
+<Row> 
+  <Col>
+  <BigCard 
+    imgProjectLogo={fordLogo}
+    imgCardLarge={fordPass}
+    cardTitleName = {"Designing a smart, digital affiliate marketing experience."}
+    cardBodyText = {"In order to accommodate the busy, on-the-go lifestyles of our affiliate partners. CAKE iOS app allows users to manage their business in real-time, automate and prioritize existing offers, launch new offers"}
+    cardLink = {"/Peerdrop"}
+    />
+   </Col>
+ </Row> 
 
       {/*     
  <Row> 
@@ -121,17 +132,7 @@ export const Home = () => (
    </Col>
  </Row> 
 
-  <Row> 
-  <Col>
-  <BigCard 
-    imgProjectLogo={fordLogo}
-    imgCardLarge={fordPass}
-    cardTitleName = {"Designing a smart, digital affiliate marketing experience."}
-    cardBodyText = {"In order to accommodate the busy, on-the-go lifestyles of our affiliate partners. CAKE iOS app allows users to manage their business in real-time, automate and prioritize existing offers, launch new offers"}
-    cardLink = {"/Peerdrop"}
-    />
-   </Col>
- </Row> 
+  
  */}
 
       {/*
