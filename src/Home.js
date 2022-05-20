@@ -106,6 +106,10 @@ export const Home = () => (
           />
         </Col>
       </Row>
+ 
+
+      {/*     
+
 
 <Row> 
   <Col>
@@ -117,9 +121,8 @@ export const Home = () => (
     cardLink = {"/Peerdrop"}
     />
    </Col>
- </Row> 
+ </Row>
 
-      {/*     
  <Row> 
   <Col>
   <BigCard 
