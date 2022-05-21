@@ -424,15 +424,15 @@ export const LMD = () => (
     </Container>
 
     <Container>
-      <Row className="mt-5">
-        <div className="col-md-5 col-xl-5 mb-5">
+      <Row className="mt-4">
+        <div className="col-md-5 col-xl-5 ">
           <h3 className="headerCopy">Project Overview</h3>
           <h5 className="mt-4 subHeaderCopy">Problem</h5>
           <p className="bodyCopy mb-4">With a boom in digitization during the pandemic, and high
 
-internet penetration there's still a high volume of cash payments.
+            internet penetration there's still a high volume of cash payments.
 
-  Understand and design solutions for individuals in the lower social-economic class using feature phones (not smartphones), that will enable them to connect with the digital ecosystem. </p>
+            Understand and design solutions for individuals in the lower social-economic class using feature phones (not smartphones), that will enable them to connect with the digital ecosystem. </p>
           <h5 className="subHeaderCopy"> Solution</h5>
           <p className="bodyCopy mb-4">The goal of the project was to design a KaiOS mobile feature phone application that allows the lower SEC class to order goods online without using smartphones.
           </p>
@@ -449,9 +449,9 @@ internet penetration there's still a high volume of cash payments.
         </div>
       </Row>
 
-      <Row>
+      <Row className='mt-4'>
 
-        <div className='col-md-3 col-xl-3 mb-3'>
+        <div className='col-md-3 col-xl-3 '>
           <h3 className='subHeaderCopy'>Duration</h3>
           <ul className="subHeaderListBodyCopyExtra" >
             <li>12 Weeks</li>
@@ -461,7 +461,7 @@ internet penetration there's still a high volume of cash payments.
           </ul>
         </div>
 
-        <div className='col-md-3 col-xl-3 mb-3'>
+        <div className='col-md-3 col-xl-3 '>
           <h3 className='subHeaderCopy'>Project Type</h3>
           <ul className="subHeaderListBodyCopyExtra" >
             <li>AssemblyF capstone project supervised by Senior UX Researcher Creditbook</li>
@@ -470,7 +470,7 @@ internet penetration there's still a high volume of cash payments.
           </ul>
         </div>
 
-        <div className='col-md-3 col-xl-3 mb-3'>
+        <div className='col-md-3 col-xl-3 '>
           <h3 className='subHeaderCopy'>Tools Used</h3>
           <ul className="subHeaderListBodyCopyExtra" >
             <li>Google Docs</li>
@@ -481,11 +481,11 @@ internet penetration there's still a high volume of cash payments.
           </ul>
         </div>
 
-         <div className='col-md-3 col-xl-3 mb-3'>
+        <div className='col-md-3 col-xl-3 '>
           <h3 className='subHeaderCopy'>Team</h3>
           <ul className="subHeaderListBodyCopyExtra" >
             <li>Capstone Project</li>
-         
+
 
 
           </ul>
@@ -502,7 +502,7 @@ internet penetration there's still a high volume of cash payments.
           <div className="col-md-5">
             <h3 className="myRoleHeaderCopy">My Role</h3>
             <div className="myRoleBodyCopy">
-             
+
               <p>I as a product designer  was responsible for designing the app, realizing the vision and validating the feasibility of the concept.</p>
             </div>
           </div>
@@ -531,7 +531,7 @@ internet penetration there's still a high volume of cash payments.
 
 
       <Row>
-        <div className="col-12 mt-5">
+        <div className="col-12 mt-4">
           <h2 className="fieldResearchHeader">Quicker Background </h2>
         </div>
       </Row>
@@ -567,14 +567,14 @@ internet penetration there's still a high volume of cash payments.
 
 
       <Row>
-        <div className="col-12 mt-5 ">
+        <div className="col-12  ">
           <h2 className="fieldResearchHeader">The Research </h2>
         </div>
 
 
-        <div className="col-xl-12 mb-5 mt-3">
-          <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing 
-          problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
+        <div className="col-xl-12  mt-3">
+          <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing
+            problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
 
         </div>
       </Row>
@@ -587,19 +587,19 @@ internet penetration there's still a high volume of cash payments.
 
 
 
-    <Container className='mt-5'>
+    <Container >
 
       <Row>
-        <div >
+          <div className="col-12 mt-4">
           <h2 className="fieldResearchHeader">Primary Research </h2>
         </div>
       </Row>
       <Row>
         <div className="col-xl-6 mb-5 mt-3">
           <p className="fieldResearchBodyCopy">It’s important as a designer to build empathy with our end users.
-           By talking and listening to them allowed me to understand the pain why they are unable to enter the 
-           digital ecosystem. Therefore, I conducted 4 1:1 qualitative user interviews to learn more about the
-           user problems.
+            By talking and listening to them allowed me to understand the pain why they are unable to enter the
+            digital ecosystem. Therefore, I conducted 4 1:1 qualitative user interviews to learn more about the
+            user problems.
           </p>
           <h4 className="fieldResearchSubHeader mt-2">Key Pain Points:</h4>
           <ul className="fieldResearchList">
@@ -692,7 +692,7 @@ internet penetration there's still a high volume of cash payments.
         <div className="col-xl-6 mb-5 mt-3">
           <p className="fieldResearchBodyCopy">The idea behind this design was to build a experience
             that makes the online shopping more accessible, and more interactive to the lower SEC class.
-            Therefore I reached out to two users and asked them to vote the best idea. By using priority 
+            Therefore I reached out to two users and asked them to vote the best idea. By using priority
             matrix I was able to finalize the idea.
           </p>
 
@@ -724,8 +724,8 @@ internet penetration there's still a high volume of cash payments.
 
 
         <div className="col-xl-12 mt-3">
-          <p className="fieldResearchBodyCopy">  I created some key user flow maps in order to evaluate and optimize the user experience of 
-          purchasing an item, and tracking a order. 
+          <p className="fieldResearchBodyCopy">  I created some key user flow maps in order to evaluate and optimize the user experience of
+            purchasing an item, and tracking a order.
             designing. </p>
 
         </div>
