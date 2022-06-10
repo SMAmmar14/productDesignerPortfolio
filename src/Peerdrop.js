@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import { LinkContainer } from 'react-router-bootstrap';
-import RSAHeader from '../src/Components/Assets/Img/CakeHeader.png';
+import RSAHeader from '../src/Components/Assets/Img/Cover.png';
 import RSAGif from '../src/Components/Assets/Img/cakeproblem.png';
 import UXFlow from '../src/Components/Assets/Img/RSAflow.png'
 import CallingRSA1 from '../src/Components/Assets/Img/CallingRSA1.jpg';
@@ -423,7 +423,7 @@ export const PD = () => (
     <Container>
       <Row>
         <div className="col-xl-12">
-          <h1 className="tagHeader">PeerDrop</h1>
+          <h1 className="tagHeader">Woof: Building an enjoyable dog walking lifestyle to make your dog healthy and happy</h1>
         </div>
         {/* 
         <div className="col-xl-12">
@@ -446,8 +446,11 @@ export const PD = () => (
         <div className="col-md-5 col-xl-6 mb-5">
           <h3 className="headerCopy">Project Overview</h3>
           <h5 className="mt-4 subHeaderCopy">Problem</h5>
-          <p className="bodyCopy mb-4">Our team's goal was to bring together in a single platform all
-            the necessary tools for obtaining, managing, and analyzing campaigns generated through affiliate marketing.
+          <p className="bodyCopy mb-4">
+            Dog parents feel unmotivated to walk their dogs every day especially when they are busy at work.
+             Hiring dog walkers is a common solution, but they feel expansive to hire dog walkers and 
+             feel unsafe letting strangers come into their house. Lack of exercise has led to behavior 
+             problems and health problems in dogs.
           </p>
           <h5 className="subHeaderCopy"> Solution</h5>
           <p className="bodyCopy mb-4"> We developed an MVP version of CAKE iOS mobile application that helps businesses manage the entire affiliate marketing experience at finger tips. We introduced ability to view reports, create campaigns and fire pixels.
@@ -549,8 +552,8 @@ export const PD = () => (
       </Container>
     </Jumbotron>
 
-  
-    
+
+
     <Container>
       <a id="research">
         <Row className="mb-5">
@@ -563,21 +566,21 @@ export const PD = () => (
             <h5>Key Insights</h5>
             <ul className="researchListCopy">
               <li className="mb-3">Customers revealed that in order to view the status of their reports they have to switch to a desktop machine and then use CAKE portal.
-              They all thought it was tiring to just do so much effort to view reports.</li>
+                They all thought it was tiring to just do so much effort to view reports.</li>
               <li className="mb-3">Customers were looking for a way to create campaigns quickly so that they can generate more leads.</li>
-              <li className="mb-3">All the customers that I interviewed were of the opinion that CAKE should launch an application that 
-              covers the basic affiliates requirements. They were even willing to pay premium, thus resulting in a new revenue stream.  </li>
+              <li className="mb-3">All the customers that I interviewed were of the opinion that CAKE should launch an application that
+                covers the basic affiliates requirements. They were even willing to pay premium, thus resulting in a new revenue stream.  </li>
             </ul>
           </div>
         </Row>
       </a>
 
       <Row>
-              <h1 className="tagHeader">Case study in construction</h1>
+        <h1 className="tagHeader">Case study in construction</h1>
 
       </Row>
 
- {/*
+      {/*
       <Row>
         <div className="col">
           <h3 className="mt-3 headerCopy mb-3">Mapping the UX Flow</h3>
@@ -745,7 +748,7 @@ export const PD = () => (
       */}
     </Container>
 
- {/*
+    {/*
 
     <Jumbotron className="takeawayJumbotron">
       <Container>

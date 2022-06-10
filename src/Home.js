@@ -14,6 +14,7 @@ import FPPLogo from '../src/Components/Assets/Img/FPPLogo.svg';
 import rsa from '../src/Components/Assets/Img/RSA.jpg';
 import Journeys from '../src/Components/Assets/Img/Journeys.jpg';
 import LMD from '../src/Components/Assets/Img/Quicker.png';
+import Woof from '../src/Components/Assets/Img/woofTh.png';
 import LMDLogo from '../src/Components/Assets/Img/assemblyf.jpg';
 import FPPBuilder from '../src/Components/Assets/Img/FPPBuilder.jpg';
 import { NewsletterFooter } from './Components/NewsletterFooter';
@@ -42,9 +43,9 @@ const Styles = styled.div`
         
     }
     .headerStyling {
-        color: #202020;
-        font-family: 'Playfair Display', sans-serif; 
-        font-size:  3rem;
+      font-family: 'Chivo', sans-serif;  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
         font-weight: 700;
         line-height: 1.2em;
     }
@@ -98,7 +99,6 @@ export const Home = () => (
       <Row>
         <Col className="mt-5">
           <BigCard
-            imgProjectLogo={LMDLogo}
             imgCardLarge={LMD}
             cardTitleName={"Connecting lower social economic class with the digital ecosystem through feature phones"}
             cardBodyText={"Quicker is an KaiOS smart feature phone mobile phone application. It aims to connect the lower SEC class of Pakistan to digital economy easily.  "}
@@ -106,7 +106,22 @@ export const Home = () => (
           />
         </Col>
       </Row>
- 
+
+      
+
+ {/*  
+      <Row>
+        <Col className="mt-5">
+          <BigCard
+            imgProjectLogo={LMDLogo}
+            imgCardLarge={Woof}
+            cardTitleName={"Building an enjoyable dog walking lifestyle to make your dog healthy and happy."}
+            cardBodyText={"Woof is an smartphone application which aims to become the Uber of Dog walking.   "}
+            cardLink={"/PeerDrop"}
+          />
+        </Col>
+      </Row>
+
 
       {/*     
 

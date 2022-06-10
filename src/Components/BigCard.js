@@ -100,8 +100,8 @@ const Styles = styled.div`
 
 
 .cardTitleStyling {
-  font-family: Open Sans, sans-serif;
-  font-size: 1.55rem;
+ font-family: 'Chivo', sans-serif;  
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: bold;
   margin-top: 100px;
@@ -138,7 +138,7 @@ export const BigCard = props =>(
     </div>
     <div className ="col-lg-6">
     <Card.Body>
-    <Image className = "projectLogo float-right" src={props.imgProjectLogo} alt ="project logo" />
+    
     <Card.Title className = "cardTitleStyling">
       {props.cardTitleName} 
     </Card.Title>

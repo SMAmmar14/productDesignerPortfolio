@@ -8,8 +8,8 @@ const Styles = styled.div`
 @media only screen and (max-width: 768px) {
 
   .navbar-brand {
-    font-family: Playfair Display, sans-serif;
-    font-weight: 900;
+   font-family: 'Chivo', sans-serif;  font-style: normal;
+  font-weight: 900;
     font-size: 1.3rem !important;
     letter-spacing: 0.015em;
     color: black;
@@ -27,9 +27,9 @@ const Styles = styled.div`
 
 
   .navbar-brand {
-    font-family: Playfair Display, sans-serif;
-    font-weight: 900;
-    font-size: 1.45rem;
+   font-family: 'Chivo', sans-serif;  font-style: normal;
+  font-weight: 900;
+    font-size: 1.5rem;
     letter-spacing: 0.015em;
     color: black;
     text-decoration: none;
@@ -78,7 +78,7 @@ export const NavigationBar = () => (
           <Nav.Link className="hvr-underline-from-left mr-4">Portfolio</Nav.Link>
           </LinkContainer>
 
-            <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1UUCJFGy4PfRNyDBAznIysqwonIi0wWax/view?usp=sharing">
+            <Nav.Link className="hvr-underline-from-left mr-4" rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1zYQHCv8aHBZjoFvmRc3xAyHwlDVkM7G2/view?usp=sharing">
              Resume
             </Nav.Link>
           

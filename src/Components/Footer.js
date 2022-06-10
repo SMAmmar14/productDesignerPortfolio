@@ -114,7 +114,7 @@ export const Footer = () => (
                             <li className="mb-1">
                                 <NavLink to="/">Portfolio</NavLink>
                             </li>
-                            <li className="mb-1"><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1UUCJFGy4PfRNyDBAznIysqwonIi0wWax/view?usp=sharing">Resume</a></li>
+                            <li className="mb-1"><a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1zYQHCv8aHBZjoFvmRc3xAyHwlDVkM7G2/view?usp=sharing">Resume</a></li>
                             <li className="mb-1"><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/syed-mohammad-ammar-053877145/">LinkedIn</a></li>
                             <li className="mb-1"><a rel="noopener noreferrer" target="_blank" href="https://dribbble.com/SMAmmar14">Dribbble</a></li>
 

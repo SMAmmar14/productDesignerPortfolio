@@ -2,15 +2,18 @@ import React from 'react'
 import styled from 'styled-components';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import { Card } from 'react-bootstrap';
+
 import Row from 'react-bootstrap/Row';
 import LMDCover from '../src/Components/Assets/Img/Quicker.png';
 import Graph1 from '../src/Components/Assets/Img/graph.png';
 import iPhoneCamera from '../src/Components/Assets/Img/iPhoneCamera.jpg';
 import DeliveryResults from '../src/Components/Assets/Img/DeliveryResults.gif';
 import DeliveriesPerHour from '../src/Components/Assets/Img/DeliveriesPerHour.gif';
-import LMDHeader from '../src/Components/Assets/Img/coverphoto.png';
+import LMDHeader from '../src/Components/Assets/Img/coverphoto1.png';
 import LMDMultiModal from '../src/Components/Assets/Img/MultiModal.png';
 import LMDPersona from '../src/Components/Assets/Img/Persona.png';
+import DTProcess from '../src/Components/Assets/Img/DTprocess.png';
 import SubwayUncle from '../src/Components/Assets/Img/PrimaryResearch.png';
 import Matrix from '../src/Components/Assets/Img/matrix.png';
 import Flow1 from '../src/Components/Assets/Img/UserFlow.png';
@@ -44,17 +47,24 @@ const Styles = styled.div`
 .headerJumbotronImage {
   max-width: 100%; 
   height: auto;
+
   margin-bottom: 20px;
 }
 
+
 .tagHeader{
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
+  font-family: 'Chivo', sans-serif;  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
   line-height: 150%;
   margin-bottom: 12px;
-  color: black;
+  color: #2E2E2E;
+}
+
+.hmw{
+    font-family: 'Chivo', sans-serif;  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
 }
 
 .tagStyling {
@@ -92,20 +102,28 @@ const Styles = styled.div`
 }
 
 .headerCopy {
-  font-family: Open Sans, sans-serif;
-  font-size: 1.9rem;
-  font-weight: bold;
+font-family: 'Chivo', sans-serif;  font-style: normal;
+  font-weight: 900;
+    font-size: 2rem;
   line-height: 140%;
-  color: black;
+  color: #2E2E2E;
   
 }
 
 .subHeaderCopy{
-  font-family: Open Sans, sans-serif;
-  font-size: 1.15rem;
+ font-family: 'Chivo', sans-serif;  font-style: normal;
   font-weight: 700;
-  color: black;
-  text-transform: uppercase;
+    font-size: 1.5rem;
+  color: #2E2E2E;
+
+}
+
+.myRoleHeaderCopy{
+ font-family: 'Chivo', sans-serif;  font-style: normal;
+  font-weight: 700;
+    font-size: 2rem;
+  color: #fff;
+
 }
 
 .subHeaderListCopy {
@@ -128,7 +146,7 @@ const Styles = styled.div`
 
 .subHeaderListBodyCopyExtra {
  font-family: Open Sans, sans-serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: black;
   list-style-type: none;
   line-height: 1.6rem;
@@ -149,18 +167,11 @@ const Styles = styled.div`
 
 }
 
- .myRoleHeaderCopy {
-  font-family: Open Sans, sans-serif;
-  font-size: 1.9rem;
-  font-weight: bold;
-  color: white;
-  line-height: 140%;
-  
-}
+
 
 .myRoleBodyCopy {
   text-decoration:none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: Open Sans, sans-serif;
   color: white;
   list-style-type: none;
@@ -168,12 +179,20 @@ const Styles = styled.div`
 
 .whatIDidCopy {
   font-family: Open Sans, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: white;
   list-style-type: disc;
   line-height: 2rem;
   padding-left: 15px;
+}
 
+.whatIDidCopyInsights {
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+  color: black;
+  list-style-type: disc;
+  line-height: 2rem;
+  padding-left: 15px;
 }
 
 .projectBackgroundHeader {
@@ -409,7 +428,7 @@ export const LMD = () => (
     <Container>
       <Row>
         <div className="col-xl-12">
-          <h1 className="tagHeader">Quicker: Connecting lower social economic class with the digital ecosystem through feature phones</h1>
+          <h1 className="tagHeader">Connecting lower social economic class with the digital ecosystem through feature phones</h1>
         </div>
         {/*}
         <div className="col-xl-12">
@@ -424,40 +443,37 @@ export const LMD = () => (
     </Container>
 
     <Container>
-      <Row className="mt-4">
-        <div className="col-md-5 col-xl-5 ">
-          <h3 className="headerCopy">Project Overview</h3>
-          <h5 className="mt-4 subHeaderCopy">Problem</h5>
-          <p className="bodyCopy mb-4">With a boom in digitization during the pandemic, and high
+      <h3 className="headerCopy">Project Overview</h3>
 
-            internet penetration there's still a high volume of cash payments.
+      <Row className="mt-3">
+        <Row>
+          <div className="col-md-5 mt-3 ml-3 ">
+            <h5 className="mt-4 subHeaderCopy">Problem</h5>
+            <p className="bodyCopy mb-4 text-justify">With a boom in digitization during the pandemic, and high
 
-            Understand and design solutions for individuals in the lower social-economic class using feature phones (not smartphones), that will enable them to connect with the digital ecosystem. </p>
-          <h5 className="subHeaderCopy"> Solution</h5>
-          <p className="bodyCopy mb-4">The goal of the project was to design a KaiOS mobile feature phone application that allows the lower SEC class to order goods online without using smartphones.
-          </p>
-          <h5 className="subHeaderListCopy">Impact</h5>
-          <ul className="subHeaderListBodyCopy">
-            <li>Concept tested on<b> 4 users</b> </li>
-            <li>Task completion rate upto<b> 80%</b></li>
+              internet penetration there's still a high volume of cash payments.
 
-            <li>Concept liked by <b>75% tested users</b></li>
-          </ul>
-        </div>
-        <div className="offset-xl-1 col-xl-6 col-md-7 col-sm-12 col-xs-12">
-          <img className="projectPicture" alt="roadside assistance app" src={LMDCover} />
-        </div>
+              Understand and design solutions for individuals in the lower social-economic class using feature phones (not smartphones), that will enable them to connect with the digital ecosystem. </p>
+          </div>
+
+          <div className="col-md-5 mt-3 ml-3 ">
+            <h5 className="mt-4 subHeaderCopy">Solution</h5>
+            <p className="bodyCopy mb-4 text-justify">The goal of the project was to design a KaiOS mobile feature phone
+              application that allows the lower SEC class to order goods online without using smartphones.
+            </p>
+          </div>
+        </Row>
+
+
       </Row>
 
-      <Row className='mt-4'>
+      <Row className='mt-3 listers'>
 
         <div className='col-md-3 col-xl-3 '>
           <h3 className='subHeaderCopy'>Duration</h3>
           <ul className="subHeaderListBodyCopyExtra" >
             <li>12 Weeks</li>
             <li>Oct 2021 - Dec 2021</li>
-
-
           </ul>
         </div>
 
@@ -465,8 +481,6 @@ export const LMD = () => (
           <h3 className='subHeaderCopy'>Project Type</h3>
           <ul className="subHeaderListBodyCopyExtra" >
             <li>AssemblyF capstone project supervised by Senior UX Researcher Creditbook</li>
-
-
           </ul>
         </div>
 
@@ -476,37 +490,35 @@ export const LMD = () => (
             <li>Google Docs</li>
             <li>Figma</li>
             <li>Figjam</li>
-
-
           </ul>
         </div>
 
         <div className='col-md-3 col-xl-3 '>
           <h3 className='subHeaderCopy'>Team</h3>
           <ul className="subHeaderListBodyCopyExtra" >
-            <li>Capstone Project</li>
-
-
-
+            <li>Personal Project</li>
           </ul>
         </div>
 
       </Row>
+
+
     </Container>
 
 
 
     <Jumbotron className="myRoleHeader">
       <Container>
+
         <Row>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <h3 className="myRoleHeaderCopy">My Role</h3>
             <div className="myRoleBodyCopy">
 
               <p>I as a product designer  was responsible for designing the app, realizing the vision and validating the feasibility of the concept.</p>
             </div>
           </div>
-          <div className="offset-md-2 col-md-5">
+          <div className="  col-md-6">
             <h3 className="myRoleHeaderCopy">What I Did</h3>
             <ul className="whatIDidCopy">
               <li>Lead the product vision and strategy </li>
@@ -520,189 +532,356 @@ export const LMD = () => (
             </ul>
           </div>
         </Row>
+
+
       </Container>
     </Jumbotron>
 
 
-
-
-
-    <Container>
-
+    <Container className='mt-5'>
 
       <Row>
-        <div className="col-12 mt-4">
-          <h2 className="fieldResearchHeader">Quicker Background </h2>
-        </div>
-      </Row>
-      <Row>
-        <div className="col-xl-6 mb-5 mt-3">
-          <p className="fieldResearchBodyCopy">Pakistan is an emerging mobile economy, with digital technologies beginning to transform the way people live and
-            work. For a growing number of citizens, digital platforms have become the primary channel for accessing public
-            and private services. However, Pakistan
-            still has a sizeable ‘coverage gap’ and lags behind peers in certain areas; for example, mobile broadbands accounts
-            for less than five in 10 mobile connections. Pakistan also scored 39.8 in the GSMA’s latest Mobile Connectivity
-            Index, compared to an average of 45.7 for South Asia.   </p>
 
-          <h4 className="fieldResearchSubHeader mt-2">Key Insights:</h4>
-          <ul className="fieldResearchList">
-            <li>More than 50% of the population does not own smartphones.</li>
-            <li className="mt-2">Only 30% Pakistan's population is exposed to the power of mobile internet.</li>
-            <li className="mt-2">Smartphones are expensive. Data plans cost too much. The lack of digital skills and relevant apps makes them stay rather with a low cost basic phone.</li>
-          </ul>
+        <div className='col-md-6 '>
+          <h3 className='subHeaderCopy'>Background</h3>
+
+          <p className='bodyCopy  text-justify'>
+            Pakistan is an emerging mobile economy, with digital technologies beginning to transform the way people live and work. For a growing  number of citizens, digital platforms have become the primary channel for
+            accessing public and private services. However, Pakistan still has a sizeable ‘coverage gap’ and lags behind peers in certain areas; for example, mobile broadbands accounts for less than five in 10 mobile connections.
+            Pakistan also scored 39.8 in the GSMA’s latest Mobile Connectivity Index, compared to an average of 45.7 for South Asia.
+          </p>
+
+
+
         </div>
-        <div className="col-xl-6 mt-2 mb-2">
+
+        <div className='col-md-6 '>
           <img className="metricPicture" alt="LMD metrics for success" src={Graph1} />
+
         </div>
+
       </Row>
 
+      <h3 className='subHeaderCopy mt-3'>Key Insights</h3>
+
+      <Row className='mt-3'>
+
+
+        <div className='col-md-4'>
+          <Card >
+            <Card.Body>
+              <Card.Text>
+                More than 50% of the population does not own smartphones.
+
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className='col-md-4'>
+          <Card  >
+            <Card.Body>
+              <Card.Text>
+                Only 30% Pakistan's population is exposed to the power of mobile internet.
+
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className='col-md-4'>
+          <Card  >
+            <Card.Body>
+              <Card.Text>
+                Smartphones are expensive and data plans cost too much
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
 
 
 
-
+      </Row>
     </Container>
 
 
-    <Container>
 
+
+    <Container className='mt-5'>
 
       <Row>
-        <div className="col-12  ">
-          <h2 className="fieldResearchHeader">The Research </h2>
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">Research Goal </h2>
         </div>
 
 
-        <div className="col-xl-12  mt-3">
-          <p className="fieldResearchBodyCopy">The goal of research was to identify and understand the existing
+        <div className="col-md-12  ">
+          <p className="bodyCopy ">The goal of research was to identify and understand the existing
             problems that stop lower SEC class from adopting digital Pakistan. The research revealed that cost of smartphones are way over the budget, and due to lack of knowledge they are unable to maximize the power of smartphone. The biggest reason that proved to be a hinderance was that they had a low average income. That suggested an opportunity for introducing cheap smart feature phone that will help them harness the benefits of digital Pakistan.  </p>
 
         </div>
       </Row>
 
+    </Container>
+
+    <Container className='mt-5'>
+
+      <Row>
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">The Process </h2>
+        </div>
 
 
+        <div className="col-md-12">
+          <img className=" headerJumbotronImage" alt="last mile delivery in action" src={DTProcess} />
+        </div>
+      </Row>
 
     </Container>
 
 
 
-
-    <Container >
+    <Container className='mt-5'>
 
       <Row>
-          <div className="col-12 mt-4">
-          <h2 className="fieldResearchHeader">Primary Research </h2>
-        </div>
-      </Row>
-      <Row>
-        <div className="col-xl-6 mb-5 mt-3">
-          <p className="fieldResearchBodyCopy">It’s important as a designer to build empathy with our end users.
+
+        <div className='col-md-6 '>
+          <h3 className='subHeaderCopy'>Primary Research</h3>
+
+          <p className='bodyCopy  text-justify '>
+            It’s important as a designer to build empathy with our end users.
             By talking and listening to them allowed me to understand the pain why they are unable to enter the
             digital ecosystem. Therefore, I conducted 4 1:1 qualitative user interviews to learn more about the
             user problems.
           </p>
-          <h4 className="fieldResearchSubHeader mt-2">Key Pain Points:</h4>
-          <ul className="fieldResearchList">
-            <li>Due to lack of income there are no savings.</li>
-            <li className="mt-2">Due to lack of knowledge it is difficult for them to use smartphone.</li>
-            <li className="mt-2">All of the users thought in order to purchase from ecommerce
-              stores you have to use credit/debit card. </li>
-            <li className="mt-2">The poor law and order situation in the city forces them to keep
-              a secondary phone that is a feature phone. </li>
-            <li>Majority of the participants thought that online items are very
-              expensive and seller sells fake items.</li>
-          </ul>
+
+
 
         </div>
 
-        <div className="col-xl-6 mb-5 mt-3">
-          <img className=" headerJumbotronImage" alt="last mile delivery in action" src={SubwayUncle} />
+        <div className='col-md-6 '>
+          <img className="metricPicture" alt="LMD metrics for success" src={SubwayUncle} />
+
         </div>
 
       </Row>
 
+      <h3 className='subHeaderCopy mt-3'>Pain Points</h3>
+
+      <Row className='mt-3'>
+
+
+        <div className='col-md-4'>
+          <Card border="danger" >
+            <Card.Header><b>No Savings</b></Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Due to lack of income
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className='col-md-4'>
+          <Card border="danger" >
+            <Card.Header><b>Difficulty in using Smartphone</b></Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Due to lack of knowledge/awareness
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className='col-md-4'>
+          <Card border="danger" >
+            <Card.Header><b>No usage of online shopping</b></Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Users thought that they need card to buy
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className='col-md-4 mt-3'>
+          <Card border="danger" >
+            <Card.Header><b>Unable to keep smartphone</b></Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Due to poor law and order situation
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+        <div className='col-md-4 mt-3'>
+          <Card border="danger" >
+            <Card.Header><b>Fake and Expensive Items</b></Card.Header>
+            <Card.Body>
+              <Card.Text>
+                Users bias based on previous experience
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+
+
+
+
+
+
+      </Row>
     </Container>
 
 
 
-
-    <Container>
+    <Container className='mt-5'>
 
       <Row>
-        <div className="col-12 mt-5 ">
-          <h2 className="fieldResearchHeader">User Persona </h2>
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">User Persona </h2>
+        </div>
+
+        <div className="col-md-12  ">
+          <p className="bodyCopy ">To synthesize my findings and empathize with my interviewees, I created a persona based on the insights gained in the interview stage. The persona allowed me to combine the pain points into
+            a distinct use case which helped me to confidently ideate better solutions.
+          </p>
         </div>
 
 
-        <div className="col-xl-12 mt-3">
-          <p className="fieldResearchBodyCopy">   After completing my interviews and gathering key insights. I created three
-            user personas and then consolidated into one which helped me
-            to better understand who are my target users and allowed me to empathize with them while designing. </p>
-
-        </div>
-
-        <div className="col-12">
+        <div className="col-md-12">
           <img className=" headerJumbotronImage" alt="last mile delivery in action" src={LMDPersona} />
         </div>
       </Row>
 
-
-
-
     </Container>
 
 
 
 
+    <Container className='mt-5'>
 
-    <Container >
       <Row>
-        <div className="col-12 mt-5">
-          <h2 className="fieldResearchHeader">Reframed Design Question </h2>
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">Reframed Design Question </h2>
         </div>
-      </Row>
-      <Row>
-        <div className="col-xl-12 mb-5 mt-3">
-          <p className="fieldResearchBodyCopy">The above findings helped me further narrow down the problem statement, so I came up
-            with the final design question: </p>
-          <h4 className='reframedDesignQuestion'>How might we make digital eCommerce experience accessible
-            for a lower SEC class Pakistani, So that they can purchase
-            goods online without using smartphones
-          </h4>
 
-        </div>
-      </Row>
-
-
-    </Container>
-
-
-
-
-
-
-    <Container>
-
-      <Row>
-        <div >
-          <h2 className="fieldResearchHeader">Ideation </h2>
-        </div>
-      </Row>
-      <Row>
-        <div className="col-xl-6 mb-5 mt-3">
-          <p className="fieldResearchBodyCopy">The idea behind this design was to build a experience
-            that makes the online shopping more accessible, and more interactive to the lower SEC class.
-            Therefore I reached out to two users and asked them to vote the best idea. By using priority
-            matrix I was able to finalize the idea.
+        <div className="col-md-12  ">
+          <p className="bodyCopy ">The above findings helped us further narrow down our problem statement,
+            so we came up with our final design question:
           </p>
+          <Card className="text-center hmw" bg="dark" text="light">
+            <Card.Body>
+              <Card.Title>How might we make digital eCommerce experience accessible
+                for a lower SEC class Pakistani, So that they can purchase
+                goods online without using smartphones</Card.Title>
 
-
+            </Card.Body>
+          </Card>
         </div>
 
-        <div className="col-xl-6 mb-5 mt-3">
-          <img className=" headerJumbotronImage" alt="last mile delivery in action" src={Matrix} />
+
+
+      </Row>
+
+    </Container>
+
+
+
+
+    <Container className='mt-5'>
+
+      <Row>
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">Ideation </h2>
         </div>
 
+        <Card>
+          <Card.Body>
+            <Card.Text >
+              The idea behind this design was to build a experience that makes the online shopping more accessible, and more interactive to the lower SEC class. Therefore I reached out to two users and asked them to vote the best idea. By using priority matrix I was able to finalize the idea.
+            </Card.Text>
+          </Card.Body>
+          <Card.Img variant="bottom" className=" headerJumbotronImage center" alt="last mile delivery in action" src={Matrix} />
+
+        </Card>
+      </Row>
+
+    </Container>
+
+
+
+    <Container className='mt-5'>
+
+      <Row>
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">User Flow </h2>
+        </div>
+
+        <Card>
+          <Card.Body>
+            <Card.Text >
+              I created some key user flow maps in order to evaluate and optimize the user experience of
+              purchasing an item, and tracking a order.
+            </Card.Text>
+          </Card.Body>
+          <Card.Img variant="bottom" className=" headerJumbotronImage center" alt="last mile delivery in action" src={Flow1} />
+
+        </Card>
+      </Row>
+
+    </Container>
+
+
+
+
+    <Container className='mt-5'>
+
+      <Row>
+        <h3 className="headerCopy mb-5">Designing Solution</h3>
+
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">Low Fidelity </h2>
+        </div>
+
+        <Card>
+          <Card.Body>
+            <Card.Text >
+              Before embarking onto preliminary user testing and high fidelity mockups,
+              I brainstormed on potential UI designs, illustrating wireframes to get a feel for the app and its core features.
+
+            </Card.Text>
+          </Card.Body>
+          <Card.Img variant="bottom" className=" headerJumbotronImage center" alt="last mile delivery in action" src={Wireframe} />
+
+        </Card>
+      </Row>
+
+    </Container>
+
+
+
+    <Container className='mt-5'>
+
+      <Row>
+
+        <div className="col-md-12  ">
+          <h2 className="subHeaderCopy">High Fidelity </h2>
+        </div>
+
+        <Card>
+          <Card.Body>
+            <Card.Text >
+              With this flow in mind, I went on to create the digitalized high-fidelity mockups on AdobexD.
+              I skipped mid-fidelity because my persona were not tech savy and I didn't want to overwhelm them.
+              I conducted usability testing on 4 users
+
+            </Card.Text>
+          </Card.Body>
+          <Card.Img variant="bottom" className=" headerJumbotronImage center" alt="last mile delivery in action" src={Iteration} />
+
+        </Card>
       </Row>
 
     </Container>
@@ -712,118 +891,80 @@ export const LMD = () => (
 
 
 
+    <Container className='mt-5'>
+
+
+      <h3 className='subHeaderCopy mt-3'>Usability Testing Findings</h3>
+
+      <Row className='mt-3'>
+
+
+        <div className='col-md-6'>
+          <Card  >
+            <Card.Header><b>What I Learn</b></Card.Header>
+            <Card.Body>
+              <Card.Text>
+                <ul className="whatIDidCopyInsights">
+                  <li>Users were unable to understand majority of the content because it was in
+                    english and there was a major language barrier
+                  </li>
+                  <li>Users were unable to relate with the images used on the cards.
+                  </li>
+                  <li>Major accessibility issues were spotted by users on CTAs and cards.
+                  </li>
 
 
 
-    <Container>
+                </ul>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
 
-      <Row>
-        <div className="col-12 mt-5 ">
-          <h2 className="fieldResearchHeader">User Flow </h2>
+        <div className='col-md-6'>
+          <Card >
+            <Card.Header><b>According to the feedback</b></Card.Header>
+            <Card.Body>
+              <Card.Text>
+                <ul className="whatIDidCopyInsights">
+                  <li>I introduced Roman Urdu to reduce language barrier
+                  </li>
+                  <li>Instead of images switched to illustrations that could relate to target audience
+                  </li>
+                  <li>Everything was then run under WCAG rules to fix the accessibility issues
+                  </li>
+
+
+
+                </ul>
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
 
 
-        <div className="col-xl-12 mt-3">
-          <p className="fieldResearchBodyCopy">  I created some key user flow maps in order to evaluate and optimize the user experience of
-            purchasing an item, and tracking a order.
-            designing. </p>
 
-        </div>
 
-        <div className="col-12">
-          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Flow1} />
 
-        </div>
+
+
       </Row>
-
-
-
-
     </Container>
 
 
-
-
-    <Container>
+  <Container className='mt-5'>
 
       <Row>
-        <div className="col-12 mt-5 ">
-          <h2 className="fieldResearchHeader">Design Solution </h2>
-        </div>
+        <h3 className="headerCopy">Final Solution</h3>
 
-
-        <div className="col-xl-12 mt-3">
-          <p className="fieldResearchBodyCopy"> Using the structure of the user flow, I drew out sketches of the app's main features first on
-            paper. For best approval, I drew multiple sketches of each screen and later based on these sketches made some digital wireframes </p>
-
-        </div>
-
-        <div className="col-12">
-          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Wireframe} />
-
-        </div>
-
-        <div className="col-xl-12 mt-3">
-          <p className="fieldResearchBodyCopy"> I made some prototypes and ran two usability testings.
-            The goal was to get feedback on the concept.</p>
-        </div>
-
-        <div className="col-12">
-          <img className="mt-3 headerJumbotronImage" alt="last mile delivery in action" src={Iteration} />
-
-        </div>
-
-        <div className="col-6 mt-3 ">
-          <h3 >What I Learn:</h3>
-
-          <ul className="fieldResearchList">
-            <li>Users were unable to understand majority of the content because it was in english and there was a major
-              language barrier
-            </li>
-            <li className="mt-2">Users were unable to relate with the images used on the cards. </li>
-            <li className="mt-2">Major accessibility issues were spotted by users on CTAs and cards.</li>
-
-          </ul>
-        </div>
-
-        <div className="col-6 mt-3 ">
-          <h3 >According to the feedback:</h3>
-
-          <ul className="fieldResearchList">
-            <li>I introduced Roman Urdu to reduce language barrier</li>
-            <li className="mt-2">Instead of images switched to illustrations that could relate to target audience </li>
-            <li className="mt-2">Everything was then run under WCAG rules to fix the accessibility issues </li>
-
-          </ul>
-        </div>
-
-
-        <div className="col-12 mt-3 ">
-          <h3 >HiFi Iteration:</h3>
-
-          <p>I went through a final round of user testing with high fidelity prototypes, and created iteration.
-            The goal was to get feedback on app usability and make sure the visual elements were meeting WCAG standard.
-            Therefore I created the final prototype summing up my testing and findings.
+          <p className="bodyCopy ">Based on the results, I fixed the accessability issues finalized on the final design. With these 
+          design decisions in place, I was ready to create the full prototype.
           </p>
-        </div>
-
-
+         
       </Row>
 
-    </Container>
-
-
-
-
-    <Container>
-      <a id="prototype">
-        <Row>
-          <div className="col-12 mt-3">
-            <h1 className="prototypeHeader">Prototype</h1>
-          </div>
-        </Row>
-        <Row>
-          <div className="col-12 mt-3 mb-4">
+  <Row>
+          <div className="col-md-12">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} src="https://xd.adobe.com/embed/13e59caa-3ff1-483c-a3c1-5b93603ff68f-46b6/?fullscreen" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -834,16 +975,15 @@ export const LMD = () => (
 
           </div>
         </Row>
-      </a>
-
-
     </Container>
+
+
 
     <Jumbotron className="takeawayJumbotron">
       <Container>
         <Row>
           <div className="col-lg-6 md-12">
-            <h3 className="takeawayHeaderCopy">Reflection as a designer</h3>
+        <h3 className="headerCopy">Reflection as a designer</h3>
           </div>
         </Row>
         <Row>
@@ -852,16 +992,16 @@ export const LMD = () => (
           </div>
         </Row>
         <Row>
-          <div className="col-lg-8 col-12">
+          <div className="col-lg-12 col-12">
             <ul className="takeawayListStyle">
-              <li className="takeawayListText mt-2">As a designer, I tried to help lower SEC class understand
-                the power of ecommerce in real life through the design.
+              <li className="takeawayListText mt-2">Creating an app from scratch as a designer is super rewarding. I got the experience to compile research, conduct interaction testing, and craft high-fidelity interfaces. Through the process, I realized a great product needs to be 
+              buttressed by qualitative data, clear user flow, and lots of user feedback. 
               </li>
               <li className="takeawayListText mt-3">The purpose of Quicker is to enable lower SEC class enjoy the power of
                 digital ecommerce and make their lives better via using smart feature phones.
               </li>
               <li className="takeawayListText mt-3">This was my first time working on a KaiOS application and it was really
-                difficult to design for extremely small screen.
+                fun to design experience for such small screens.
               </li>
 
             </ul>
