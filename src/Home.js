@@ -109,7 +109,7 @@ export const Home = () => (
 
       
 
- {/*  
+     {/*  
       <Row>
         <Col className="mt-5">
           <BigCard
@@ -123,7 +123,7 @@ export const Home = () => (
       </Row>
 
 
-      {/*     
+      
 
 
 <Row> 
